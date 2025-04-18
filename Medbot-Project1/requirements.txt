@@ -12,3 +12,5 @@ plotly
 wordcloud
 matplotlib
 numpy
+pycryptodome
+PyJWT

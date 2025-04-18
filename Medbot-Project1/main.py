@@ -3,12 +3,68 @@ from chatbot import ChatBot
 from db_handler import ChatDatabase
 import datetime
 from bson import ObjectId
+import jwt
+import requests
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+# Initialize JWT secret from environment variable
+JWT_SECRET = os.getenv("JWT_SECRET", "your-secret-key")
 
 st.set_page_config(
     page_title="🧠 Mental Health Assistant",
     layout="wide",
     initial_sidebar_state="expanded"
 )
+
+def verify_token(token, jwt_secret=None):
+    try:
+        if not token:
+            st.error("No token provided")
+            return None
+            
+        # Use provided JWT secret or fall back to environment variable
+        secret = jwt_secret or JWT_SECRET
+            
+        # Decode the token
+        decoded = jwt.decode(token, secret, algorithms=["HS256"])
+        
+        # Get the user ID and ensure it's a string
+        user_id = str(decoded.get("userId"))
+        if not user_id:
+            st.error("Invalid token: No user ID found")
+            return None
+            
+        # Store the token and JWT secret in session state
+        st.session_state.token = token
+        if jwt_secret:
+            st.session_state.jwt_secret = jwt_secret
+        return user_id
+        
+    except jwt.exceptions.ExpiredSignatureError:
+        st.error("Session expired. Please login again.")
+        return None
+    except jwt.exceptions.InvalidTokenError:
+        st.error("Invalid session. Please login again.")
+        return None
+    except Exception as e:
+        st.error(f"Error verifying token: {str(e)}")
+        return None
+
+# Check for authentication
+token = st.query_params.get("token")
+jwt_secret = st.query_params.get("jwt_secret")  # Get JWT secret from query params
+
+if not token:
+    st.error("Please login to access the chat")
+    st.stop()
+
+# Verify token and get user ID
+user_id = verify_token(token, jwt_secret)
+if not user_id:
+    st.stop()
 
 # Initialize session state
 if "current_chat_id" not in st.session_state:
@@ -21,6 +77,12 @@ if "messages" not in st.session_state:
     st.session_state.messages = []
 if "delete_chat_id" not in st.session_state:
     st.session_state.delete_chat_id = None
+if "user_id" not in st.session_state:
+    st.session_state.user_id = user_id
+if "token" not in st.session_state:
+    st.session_state.token = token
+if "jwt_secret" not in st.session_state and jwt_secret:
+    st.session_state.jwt_secret = jwt_secret
 
 def load_chat(chat_id):
     try:
@@ -52,15 +114,15 @@ with st.sidebar:
     
     # New chat button
     if st.button("+ New Chat"):
-        new_chat_id = st.session_state.db.create_chat()
+        new_chat_id = st.session_state.db.create_chat(user_id)
         if new_chat_id:
             load_chat(new_chat_id)
         else:
             st.error("Failed to create new chat")
     
-    # List of all chats
+    # List of all chats for the current user
     try:
-        chats = st.session_state.db.get_all_chats()
+        chats = st.session_state.db.get_all_chats(user_id)
         for chat in chats:
             chat_id = str(chat["_id"])
             created_at = chat["created_at"].strftime("%Y-%m-%d %H:%M")

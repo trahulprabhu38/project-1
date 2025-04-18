@@ -3,6 +3,7 @@ import pandas as pd
 import plotly.express as px
 from datetime import datetime, timedelta
 from db_handler import ChatDatabase
+from encryption import decrypt
 
 # Initialize database
 db = ChatDatabase()
