@@ -1,0 +1,8 @@
+streamlit
+langchain
+openai
+nltk
+python-dotenv
+transformers
+torch
+emoji
