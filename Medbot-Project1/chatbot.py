@@ -5,7 +5,7 @@ from langchain.chains import ConversationChain
 from langchain.memory import ConversationBufferMemory
 from langchain.prompts import PromptTemplate
 from db_handler import ChatDatabase
-from encryption import encrypt, decrypt
+from encryption import encrypt_message, decrypt_message
 
 load_dotenv()
 
@@ -37,9 +37,6 @@ AI:"""
         
     def get_bot_response(self, chat_id, user_input):
         try:
-            # First save the user's message (it will be encrypted in db_handler)
-            self.db.add_message(chat_id, "user", user_input)
-            
             # Get conversation history from database (messages will be decrypted in db_handler)
             history = self.db.get_chat_history(chat_id)
             
@@ -61,9 +58,6 @@ AI:"""
             
             # Get response
             response = conversation.predict(input=user_input)
-            
-            # Save bot's response (it will be encrypted in db_handler)
-            self.db.add_message(chat_id, "assistant", response)
             
             return response
         except Exception as e:

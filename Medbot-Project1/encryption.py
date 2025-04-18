@@ -1,23 +1,71 @@
 from Crypto.Cipher import AES
-from Crypto.Random import get_random_bytes
-import base64
+from Crypto.Util.Padding import pad, unpad
 import os
-import hashlib
-import uuid
-from datetime import datetime
 from dotenv import load_dotenv
+import base64
+import hashlib
+from datetime import datetime
+import uuid
 
 load_dotenv()
 
-# Default key if ENCRYPTION_KEY is not set
+# Default encryption key (64 characters)
 DEFAULT_KEY = "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
 
-# Get encryption key from environment or use default
-encryption_key = os.getenv("ENCRYPTION_KEY", DEFAULT_KEY)
-if len(encryption_key) != 64:
-    raise ValueError("ENCRYPTION_KEY must be 64 hexadecimal characters long")
+def get_encryption_key():
+    # Get encryption key from environment variable or use default
+    encryption_key = os.getenv("ENCRYPTION_KEY", DEFAULT_KEY)
+    
+    # Ensure the key is 64 characters long (32 bytes)
+    if len(encryption_key) != 64:
+        raise ValueError("Encryption key must be 64 characters long")
+    
+    # Convert hex string to bytes
+    return bytes.fromhex(encryption_key)
 
-SECRET_KEY = bytes.fromhex(encryption_key)
+def encrypt_message(message):
+    try:
+        # Convert message to bytes
+        message_bytes = message.encode('utf-8')
+        
+        # Generate a random IV
+        iv = os.urandom(16)
+        
+        # Create cipher
+        cipher = AES.new(get_encryption_key(), AES.MODE_CBC, iv)
+        
+        # Encrypt the message
+        encrypted = cipher.encrypt(pad(message_bytes, AES.block_size))
+        
+        # Combine IV and encrypted message
+        combined = iv + encrypted
+        
+        # Encode as base64 for storage
+        return base64.b64encode(combined).decode('utf-8')
+    except Exception as e:
+        print(f"Encryption error: {str(e)}")
+        return message
+
+def decrypt_message(encrypted_message):
+    try:
+        # Decode from base64
+        combined = base64.b64decode(encrypted_message)
+        
+        # Extract IV and encrypted message
+        iv = combined[:16]
+        encrypted = combined[16:]
+        
+        # Create cipher
+        cipher = AES.new(get_encryption_key(), AES.MODE_CBC, iv)
+        
+        # Decrypt the message
+        decrypted = unpad(cipher.decrypt(encrypted), AES.block_size)
+        
+        # Convert back to string
+        return decrypted.decode('utf-8')
+    except Exception as e:
+        print(f"Decryption error: {str(e)}")
+        return encrypted_message
 
 def generate_anonymous_id(user_id: str) -> str:
     """Generate a consistent anonymous ID for a user"""
@@ -26,44 +74,4 @@ def generate_anonymous_id(user_id: str) -> str:
 
 def anonymize_timestamp(timestamp: datetime) -> str:
     """Anonymize timestamp by rounding to nearest hour"""
-    return timestamp.replace(minute=0, second=0, microsecond=0).isoformat()
-
-def pad(data):
-    pad_length = AES.block_size - len(data) % AES.block_size
-    return data + chr(pad_length) * pad_length
-
-def unpad(data):
-    pad_length = ord(data[-1])
-    return data[:-pad_length]
-
-def encrypt(plain_text: str) -> str:
-    try:
-        iv = get_random_bytes(16)
-        cipher = AES.new(SECRET_KEY, AES.MODE_CBC, iv)
-        padded_text = pad(plain_text)
-        encrypted = cipher.encrypt(padded_text.encode('utf-8'))
-        encrypted_data = base64.b64encode(iv + encrypted).decode('utf-8')
-        return encrypted_data
-    except Exception as e:
-        print(f"Encryption error: {e}")
-        return plain_text
-
-def decrypt(encrypted_data: str) -> str:
-    try:
-        # Remove any existing padding characters
-        encrypted_data = encrypted_data.rstrip('=')
-        
-        # Add back the correct padding
-        padding = len(encrypted_data) % 4
-        if padding:
-            encrypted_data += '=' * (4 - padding)
-            
-        raw_data = base64.b64decode(encrypted_data)
-        iv = raw_data[:16]
-        encrypted = raw_data[16:]
-        cipher = AES.new(SECRET_KEY, AES.MODE_CBC, iv)
-        decrypted = cipher.decrypt(encrypted).decode('utf-8')
-        return unpad(decrypted)
-    except Exception as e:
-        print(f"Decryption error: {e}")
-        return encrypted_data 
+    return timestamp.replace(minute=0, second=0, microsecond=0).isoformat() 

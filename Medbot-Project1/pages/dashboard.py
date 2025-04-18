@@ -3,38 +3,65 @@ import pandas as pd
 import plotly.express as px
 from datetime import datetime, timedelta
 from db_handler import ChatDatabase
-from encryption import decrypt
+from encryption import decrypt_message
+from auth_helper import verify_and_get_user
 
 # Initialize database
 db = ChatDatabase()
 
-def get_chat_data():
-    chats = list(db.chats.find({}))
+def get_chat_data(user_id):
+    """Get chat data for the specified user"""
+    # Get chats for the current user
+    chats = list(db.chats.find({"user_id": user_id}))
     data = []
+    
     for chat in chats:
-        chat_id = str(chat["_id"])
-        created_at = chat["created_at"]
-        messages = chat.get("messages", [])
-        
-        # Calculate chat statistics
-        user_messages = [msg for msg in messages if msg["role"] == "user"]
-        bot_messages = [msg for msg in messages if msg["role"] == "assistant"]
-        
-        data.append({
-            "chat_id": chat_id,
-            "created_at": created_at,
-            "total_messages": len(messages),
-            "user_messages": len(user_messages),
-            "bot_messages": len(bot_messages)
-        })
+        try:
+            chat_id = str(chat["_id"])
+            created_at = chat.get("created_at", datetime.now())  # Default if missing
+            messages = chat.get("messages", [])
+            
+            # Calculate chat statistics
+            user_messages = [msg for msg in messages if msg.get("role") == "user"]
+            bot_messages = [msg for msg in messages if msg.get("role") == "assistant"]
+            
+            # Get the first user message as title
+            first_user_msg = next((msg for msg in messages if msg.get("role") == "user"), None)
+            title = "New Chat"
+            if first_user_msg:
+                try:
+                    content = decrypt_message(first_user_msg.get("content", ""))
+                    title = content[:40] + "..." if len(content) > 40 else content
+                except:
+                    pass
+            
+            data.append({
+                "chat_id": chat_id,
+                "title": title,
+                "created_at": created_at,
+                "total_messages": len(messages),
+                "user_messages": len(user_messages),
+                "bot_messages": len(bot_messages)
+            })
+        except Exception as e:
+            print(f"Error processing chat {chat.get('_id')}: {e}")
+            continue
+            
     return pd.DataFrame(data)
 
 def main():
     st.set_page_config(layout="wide")
     st.title("📊 Chat Analytics Dashboard")
     
-    # Get data
-    chat_data = get_chat_data()
+    # Verify user and get user_id using the auth helper
+    user_id = verify_and_get_user()
+    
+    # Add a back to chat button
+    if st.button("← Back to Chat"):
+        st.switch_page("main.py")
+    
+    # Get data for the current user
+    chat_data = get_chat_data(user_id)
     
     if len(chat_data) == 0:
         st.info("No chat data available yet. Start chatting to see analytics!")
@@ -73,7 +100,8 @@ def main():
     with col2:
         st.metric("Total Messages", filtered_data["total_messages"].sum())
     with col3:
-        st.metric("Avg Messages per Chat", round(filtered_data["total_messages"].mean(), 1))
+        avg_messages = filtered_data["total_messages"].mean()
+        st.metric("Avg Messages per Chat", round(avg_messages, 1) if pd.notnull(avg_messages) else 0)
     
     # Charts
     col1, col2 = st.columns(2)
@@ -109,7 +137,7 @@ def main():
     # Chat List
     st.subheader("Recent Chats")
     for _, chat in filtered_data.sort_values('created_at', ascending=False).head(5).iterrows():
-        with st.expander(f"Chat from {chat['created_at'].strftime('%Y-%m-%d %H:%M')}"):
+        with st.expander(f"{chat['title']} ({chat['created_at'].strftime('%Y-%m-%d %H:%M')})"):
             st.write(f"Total Messages: {chat['total_messages']}")
             st.write(f"User Messages: {chat['user_messages']}")
             st.write(f"Bot Messages: {chat['bot_messages']}")
