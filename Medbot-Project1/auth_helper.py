@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 JWT_SECRET = os.getenv("JWT_SECRET", "your-secret-key")
+DEV_MODE = os.getenv("DEV_MODE", "true").lower() == "true"  # Enable dev mode by default
 
 def init_auth():
     """Initialize authentication state"""
@@ -24,7 +25,20 @@ def verify_and_get_user():
     if st.session_state.is_authenticated and st.session_state.user_id:
         return st.session_state.user_id
     
-    # Try to get token from query params
+    # Development mode - auto authenticate with test user
+    if DEV_MODE:
+        test_user_id = "test_user_123"
+        test_token = jwt.encode(
+            {"userId": test_user_id},
+            JWT_SECRET,
+            algorithm="HS256"
+        )
+        st.session_state.is_authenticated = True
+        st.session_state.user_id = test_user_id
+        st.session_state.token = test_token
+        return test_user_id
+    
+    # Production mode - normal authentication
     token = st.query_params.get("token")
     
     if not token:
