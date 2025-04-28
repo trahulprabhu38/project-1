@@ -7,6 +7,9 @@ from dotenv import load_dotenv
 import os
 from encryption import encrypt_message, decrypt_message
 from auth_helper import verify_and_get_user, init_auth
+from recommendation_system import MoodBasedRecommender
+import random
+import json
 
 load_dotenv()
 
@@ -16,13 +19,19 @@ JWT_SECRET = os.getenv("JWT_SECRET", "your-secret-key")
 # API configuration
 API_BASE_URL = "http://localhost:5001/api"
 
+MOOD_WORDS = ["happy", "sad", "lonely", "anxious", "stressed", "angry", "depressed", "worried", "upset", "excited", "tired", "overwhelmed"]
+
+# Load local recommendations JSON
+with open(os.path.join(os.path.dirname(__file__), 'mental_health_recommendations.json'), 'r') as f:
+    LOCAL_RECOMMENDATIONS = json.load(f)
+
 st.set_page_config(
     page_title="🧠 Mental Health Assistant",
     layout="wide",
     initial_sidebar_state="expanded"
 )
 
-# Apply custom CSS
+# Apply custom CSS (no recommendation card box)
 st.markdown("""
 <style>
     .stButton button {
@@ -71,6 +80,31 @@ st.markdown("""
         padding: 15px;
         margin: 5px 0;
     }
+    .chat-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 4px;
+    }
+    .chat-row .chat-title-btn {
+        flex: 1;
+        text-align: left;
+        background: none;
+        border: none;
+        color: inherit;
+        font-size: 1em;
+        cursor: pointer;
+        padding: 0;
+    }
+    .chat-row .delete-btn {
+        background: none;
+        border: none;
+        color: #e74c3c;
+        font-size: 1.1em;
+        cursor: pointer;
+        margin-left: 8px;
+    }
 </style>
 """, unsafe_allow_html=True)
 
@@ -102,12 +136,11 @@ def load_chat_messages(chat_id):
 
 def load_chats():
     try:
-        # Get all chats for the current user
         chats = st.session_state.chatbot.db.get_all_chats(st.session_state.user_id)
+        # Sort chats by last updated (descending)
         if chats:
+            chats = sorted(chats, key=lambda c: c.get('updated_at', c.get('created_at', '')), reverse=True)
             st.session_state.chats = chats
-            
-            # If no chat is selected, select the most recent one
             if not st.session_state.current_chat_id and len(chats) > 0:
                 st.session_state.current_chat_id = chats[0]["_id"]
                 st.session_state.messages = load_chat_messages(chats[0]["_id"])
@@ -126,13 +159,14 @@ def create_chat():
 
 def update_chat(chat_id, messages):
     try:
-        # Update messages in the database
         for msg in messages:
             st.session_state.chatbot.db.add_message(
                 chat_id,
                 msg["role"],
                 msg["content"]
             )
+        # Move updated chat to top
+        load_chats()
         return True
     except Exception as e:
         st.error(f"Error updating chat: {str(e)}")
@@ -153,21 +187,13 @@ def verify_token(token, jwt_secret=None):
         if not token:
             st.error("No token provided")
             return None
-            
-        # Use provided JWT secret or fall back to environment variable
         secret = jwt_secret or JWT_SECRET
-            
-        # Decode the token
         decoded = jwt.decode(token, secret, algorithms=["HS256"])
-        
-        # Get the user ID and ensure it's a string
         user_id = str(decoded.get("userId"))
         if not user_id:
             st.error("Invalid token: No user ID found")
             return None
-            
         return user_id
-        
     except jwt.exceptions.ExpiredSignatureError:
         st.error("Session expired. Please login again.")
         return None
@@ -179,131 +205,135 @@ def verify_token(token, jwt_secret=None):
         return None
 
 def initialize_session_state(user_id):
-    """Initialize all session state variables"""
     if "initialized" not in st.session_state:
         st.session_state.initialized = True
         st.session_state.current_chat_id = None
         st.session_state.chatbot = ChatBot()
         st.session_state.messages = []
         st.session_state.chats = []
-        
-        # Load chats immediately after initialization
         load_chats()
-        
-        # If there are chats, select the most recent one
         if st.session_state.chats:
             st.session_state.current_chat_id = st.session_state.chats[0]["_id"]
             st.session_state.messages = load_chat_messages(st.session_state.chats[0]["_id"])
 
-# Initialize authentication
-init_auth()
+def is_mood_message(user_input):
+    # Only trigger for explicit requests for help or suggestions
+    mood_triggers = [
+        'can you recommend', 'can you suggest', 'what should i do for', 'any tips for',
+        'help with', 'cope with', 'manage my', 'suggest something for', 'recommend something for'
+    ]
+    user_input_lower = user_input.lower()
+    return any(kw in user_input_lower for kw in mood_triggers)
 
-# Verify user and get user_id
-user_id = verify_and_get_user()
+def process_user_input(prompt):
+    if is_mood_message(prompt):
+        recommendations = st.session_state.chatbot.recommender.get_recommendations(prompt)
+        response = "Here are some activities that might help you:\n\n"
+        for i, rec in enumerate(recommendations, 1):
+            response += f"{i}. {rec['activity']}\n\n"
+        response += "Would you like to try any of these activities? I'm here to support you."
+        return response
+    # Otherwise, use Groq API (ChatBot)
+    return st.session_state.chatbot.get_bot_response(st.session_state.current_chat_id, prompt)
 
-# Initialize session state with all required variables
-initialize_session_state(user_id)
+def get_latest_mood(messages):
+    for msg in reversed(messages):
+        if msg["role"] == "user":
+            for mood in MOOD_WORDS:
+                if mood in msg["content"].lower():
+                    return mood
+    return None
 
-# Add navigation to dashboard
-col1, col2 = st.columns([6, 1])
-with col2:
-    if st.button("📊 Dashboard"):
-        st.switch_page("pages/dashboard.py")
+def get_external_recommendations(mood):
+    url = 'https://magicloops.dev/api/loop/358a84e8-378e-47b3-9af1-9a658bbf97d4/run'
+    payload = { "mood": mood }
+    try:
+        response = requests.get(url, json=payload)
+        if response.status_code == 200:
+            return response.json()
+        else:
+            return {"youtube": [], "spotify": []}
+    except Exception as e:
+        print(f"API error: {e}")
+        return {"youtube": [], "spotify": []}
 
-# Sidebar for chat history
-with st.sidebar:
-    st.title("Chat History")
-    
-    # New chat button
-    if st.button("+ New Chat", key="new_chat"):
-        new_chat_id = create_chat()
-        if new_chat_id:
-            st.session_state.current_chat_id = new_chat_id
-            st.session_state.messages = []
-            st.rerun()
-    
-    st.markdown("---")
-    
-    # List of chats
-    if st.session_state.chats:
+def get_local_recommendations(mood):
+    mood = mood.lower()
+    recs = LOCAL_RECOMMENDATIONS.get(mood, {})
+    videos = recs.get('videos', [])
+    podcasts = recs.get('podcasts', [])
+    return videos, podcasts
+
+def main():
+    init_auth()
+    user_id = verify_and_get_user()
+    if not user_id:
+        return
+    initialize_session_state(user_id)
+    with st.sidebar:
+        st.title("Chats")
+        if st.button("New Chat"):
+            create_chat()
+        # Display chats with delete button, latest on top
         for chat in st.session_state.chats:
             chat_id = chat["_id"]
-            col1, col2 = st.columns([4, 1])
+            chat_title = chat.get("title") or f"Chat {chat_id[:8]}"
+            col1, col2 = st.columns([8, 1])
             with col1:
-                # Get chat title
-                chat_title = chat.get("title", "New Chat")
-                
-                # Create a button with the chat title
-                button_style = "background-color: rgba(151, 166, 195, 0.15);" if chat_id == st.session_state.current_chat_id else ""
-                if st.button(f"💬 {chat_title}", key=f"chat_{chat_id}"):
+                if st.button(chat_title, key=f"select_{chat_id}"):
                     st.session_state.current_chat_id = chat_id
                     st.session_state.messages = load_chat_messages(chat_id)
-                    st.rerun()
             with col2:
                 if st.button("🗑️", key=f"delete_{chat_id}"):
                     delete_chat(chat_id)
                     st.rerun()
-    else:
-        st.info("No chats yet. Start a new chat!")
+    st.title("Mental Health Assistant")
+    for message in st.session_state.messages:
+        with st.chat_message(message["role"]):
+            st.write(message["content"])
+    if prompt := st.chat_input("How are you feeling today?"):
+        st.session_state.messages.append({"role": "user", "content": prompt})
+        with st.chat_message("user"):
+            st.write(prompt)
+        response = process_user_input(prompt)
+        with st.chat_message("assistant"):
+            st.markdown(response, unsafe_allow_html=True)
+        st.session_state.messages.append({"role": "assistant", "content": response})
+        if st.session_state.current_chat_id:
+            update_chat(st.session_state.current_chat_id, st.session_state.messages)
 
-# Main chat area
-st.title("Medbot : AI Mental Health Assistant")
+    # Add a button to show recommendations
+    mood = get_latest_mood(st.session_state.messages)
+    if mood:
+        if st.button("Show Recommendations"):
+            # Get activity recommendations
+            activity_recommendations = st.session_state.chatbot.recommender.get_recommendations(mood, num_recommendations=10)
+            random.shuffle(activity_recommendations)
+            activity_recommendations = activity_recommendations[:5]
+            # Get local video and podcast recommendations
+            videos, podcasts = get_local_recommendations(mood)
+            response = f"Since you mentioned feeling {mood}, here are some resources that might help:\n\n"
+            if activity_recommendations:
+                response += "**Recommended Activities:**\n"
+                for i, rec in enumerate(activity_recommendations, 1):
+                    response += f"{i}. {rec['activity']}\n"
+                response += "\n"
+            if videos:
+                response += "**Recommended YouTube Videos:**\n"
+                for vid in videos:
+                    response += f"- [{vid.get('title', 'Video')}]({vid.get('url', '')})\n"
+            if podcasts:
+                response += "\n**Recommended Spotify Podcasts:**\n"
+                for pod in podcasts:
+                    response += f"- [{pod.get('title', 'Podcast')}]({pod.get('url', '')})\n"
+            if not activity_recommendations and not videos and not podcasts:
+                response += "Sorry, I couldn't find any recommendations for this mood."
+            response += "\nWould you like to try any of these? I'm here to support you."
+            with st.chat_message("assistant"):
+                st.markdown(response, unsafe_allow_html=True)
+            st.session_state.messages.append({"role": "assistant", "content": response})
+            if st.session_state.current_chat_id:
+                update_chat(st.session_state.current_chat_id, st.session_state.messages)
 
-# Chat container
-chat_container = st.container()
-
-# Display current chat
-with chat_container:
-    if st.session_state.current_chat_id:
-        # Display all messages in the chat
-        for msg in st.session_state.messages:
-            with st.chat_message(msg["role"]):
-                st.markdown(msg["content"])
-
-        # Input area at the bottom
-        user_input = st.chat_input("Type your message here...")
-        if user_input:
-            try:
-                # Save user message to database and update state
-                st.session_state.chatbot.db.add_message(
-                    st.session_state.current_chat_id,
-                    "user",
-                    user_input
-                )
-                st.session_state.messages.append({"role": "user", "content": user_input})
-                
-                # Display user message
-                with st.chat_message("user"):
-                    st.markdown(user_input)
-                
-                # Get and display bot response
-                with st.spinner("Thinking..."):
-                    response = st.session_state.chatbot.get_bot_response(
-                        st.session_state.current_chat_id,
-                        user_input
-                    )
-                    
-                    # Save bot response to database and update state
-                    st.session_state.chatbot.db.add_message(
-                        st.session_state.current_chat_id,
-                        "assistant",
-                        response
-                    )
-                    st.session_state.messages.append({"role": "assistant", "content": response})
-                    
-                    # Display bot response
-                    with st.chat_message("assistant"):
-                        st.markdown(response)
-                
-                # Reload chats to update titles
-                load_chats()
-                st.rerun()
-                
-            except Exception as e:
-                st.error(f"Error processing message: {e}")
-    else:
-        st.info("Select a chat from the sidebar or create a new one to start chatting.")
-
-# Load chats on initial render
-if not st.session_state.chats:
-    load_chats()
+if __name__ == "__main__":
+    main()
