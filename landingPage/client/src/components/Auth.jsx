@@ -5,12 +5,15 @@ import { motion } from 'framer-motion';
 
 // Create axios instance with default config
 const api = axios.create({
-    baseURL: 'http://localhost:5001',
+    baseURL: 'http://localhost:5001/',
     withCredentials: true,
     headers: {
         'Content-Type': 'application/json'
     }
 });
+
+
+
 
 const Auth = () => {
     const [isLogin, setIsLogin] = useState(true);

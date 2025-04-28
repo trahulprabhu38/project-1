@@ -1,0 +1,60 @@
+version: "3.8"
+services:
+  client:
+    build: ./landingPage/client
+    ports:
+      - "5173:5173"
+    environment:
+      - MONGO_URI=mongodb://mongo:27017/mydb
+      - JWT_SECRET=your-secret-key
+    networks:
+      - app-network
+    depends_on:
+      - server
+
+  server:
+    build: ./landingPage/server
+    ports:
+      - "5001:5001"
+    environment:
+      - MONGODB_URI=mongodb://mongo:27017/mydb
+      - JWT_SECRET=your-secret-key
+      
+      - PORT=5001
+    networks:
+      - app-network
+    depends_on:
+      - mongo
+
+  streamlit:
+    build: ./Medbot-Project1
+    ports:
+      - "8501:8501"
+    environment:
+      - MONGO_URI=mongodb://mongo:27017/mydb
+      - GROQ_API_KEY=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
+      - ENCRYPTION_KEY=0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef
+      - ANONYMIZATION_SALT=your_secure_salt_here
+      - DEV_MODE=false
+      - JWT_SECRET=your-secret-key
+    networks:
+      - app-network
+    depends_on:
+      - mongo
+
+  mongo:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+    networks:
+      - app-network
+
+volumes:
+  mongo-data:
+
+networks:
+  app-network:
+    driver: bridge
+

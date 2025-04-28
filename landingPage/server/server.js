@@ -9,26 +9,35 @@ const app = express();
 
 // Basic CORS configuration
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: "*",
   credentials: true
 }));
 
 app.use(express.json());
 
-// MongoDB Connection
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/medbot')
+// Connect to MongoDB using the URI from environment variable or fallback to default
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/mydb', {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+})
     .then(() => {
         console.log('MongoDB Connected');
-        // Drop the existing users collection
+
+        // Drop the existing 'users' collection after successful connection
         mongoose.connection.db.dropCollection('users', function(err, result) {
             if (err) {
-                console.log('Error dropping users collection:', err);
+                // Log detailed error if the collection doesn't exist or other errors occur
+                console.error('Error dropping users collection:', err);
             } else {
+                // Successfully dropped collection
                 console.log('Successfully dropped users collection');
             }
         });
     })
-    .catch(err => console.error('MongoDB Connection Error:', err));
+    .catch(err => {
+        // Handle MongoDB connection error
+        console.error('MongoDB Connection Error:', err);
+    });
 
 // User Schema
 const userSchema = new mongoose.Schema({
