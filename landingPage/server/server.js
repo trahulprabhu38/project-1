@@ -7,37 +7,28 @@ require('dotenv').config();
 
 const app = express();
 
-// Basic CORS configuration
+//cors
 app.use(cors({
-  origin: "*",
+  origin: 'http://localhost:5173',
   credentials: true
 }));
 
 app.use(express.json());
 
-// Connect to MongoDB using the URI from environment variable or fallback to default
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/mydb', {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-})
-    .then(() => {
-        console.log('MongoDB Connected');
-
-        // Drop the existing 'users' collection after successful connection
-        mongoose.connection.db.dropCollection('users', function(err, result) {
-            if (err) {
-                // Log detailed error if the collection doesn't exist or other errors occur
-                console.error('Error dropping users collection:', err);
-            } else {
-                // Successfully dropped collection
-                console.log('Successfully dropped users collection');
-            }
+const connectToDatabase = async () => {
+    try {
+        await mongoose.connect(process.env.MONGODB_URI || 'mongodb://project-1-mongo-1:27017/medbot', {
+            useNewUrlParser: true,
+            useUnifiedTopology: true,
         });
-    })
-    .catch(err => {
-        // Handle MongoDB connection error
+        console.log('MongoDB Connected');
+    } catch (err) {
         console.error('MongoDB Connection Error:', err);
-    });
+    }
+};
+
+connectToDatabase();
+
 
 // User Schema
 const userSchema = new mongoose.Schema({
@@ -244,7 +235,14 @@ app.delete('/api/chats/:chatId', verifyToken, async (req, res) => {
     }
 });
 
+app.get('/',(req,res)=>{
+    res.send("hey its working!")
+})
+
+const HOST = '0.0.0.0'; 
+
 const PORT = process.env.PORT || 5001;
-app.listen(PORT, () => {
+app.listen(PORT,HOST, () => {
   console.log(`Server running on port ${PORT}`);
+  console.log(" ------------------------ this is working  ------------------------");
 }); 
