@@ -14,5 +14,4 @@ matplotlib
 numpy
 pycryptodome
 PyJWT
-scikit-learn
-
+scikit-learn        
