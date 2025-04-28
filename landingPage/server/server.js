@@ -17,7 +17,7 @@ app.use(express.json());
 
 const connectToDatabase = async () => {
     try {
-        await mongoose.connect(process.env.MONGODB_URI || 'mongodb://project-1-mongo-1:27017/medbot', {
+        await mongoose.connect(process.env.MONGODB_URI ||"mongodb://localhost:27017/medbot", {
             useNewUrlParser: true,
             useUnifiedTopology: true,
         });
