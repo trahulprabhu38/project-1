@@ -90,13 +90,6 @@ The easiest way to run all components together is using Docker:
 docker-compose up
 ```
 
-This will start:
-- The React frontend at http://localhost:5173
-- The Express backend at http://localhost:5001
-- The Streamlit chatbot at http://localhost:8501
-- MongoDB at localhost:27017
-
-## 🚀 Running Components Individually
 
 ### Chatbot (Streamlit)
 
@@ -113,10 +106,12 @@ pip install -r requirements.txt
 
 # 4. Run the Streamlit app:
 streamlit run main.py
+
+# The chatbot will be available at http://localhost:8501
 ```
 
 
-The chatbot will be available at http://localhost:8501
+
 
 ### Web Application
 
@@ -131,9 +126,11 @@ npm install
 
 # 3. Run the development server:
 npm run dev
+
+# The frontend will be available at http://localhost:5173
 ```
 
-The frontend will be available at http://localhost:5173
+
 
 #### Backend
 
@@ -146,10 +143,12 @@ npm install
 
 # 3. Run the server:
 npm run dev
+
+# The backend API will be available at http://localhost:5001
 ```
 
 
-The backend API will be available at http://localhost:5001
+
 
 ## ✨ Features
 
@@ -164,7 +163,8 @@ The backend API will be available at http://localhost:5001
 
 ### Chatbot
 - **Streamlit** 
-- **LangChain** & **LangChain Community models**
+- **LangChain** 
+- **LangChain Community models**
 - **OpenAI/Groq**
 - **NLTK**
 - **PyMongo**
@@ -177,14 +177,9 @@ The backend API will be available at http://localhost:5001
 
 ### Web Application
 - **React 18**
-- **Vite**
-- **React Router 7**
-- **Framer Motion**
 - **Axios**
-- **TailwindCSS**
 - **Express.js**
 - **MongoDB**
-- **Mongoose**
 - **JWT**
 - **bcryptjs**
 - **Cors**
