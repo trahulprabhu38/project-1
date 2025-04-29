@@ -25,22 +25,11 @@ def get_encryption_key():
 
 def encrypt_message(message):
     try:
-        # Convert message to bytes
         message_bytes = message.encode('utf-8')
-        
-        # Generate a random IV
         iv = os.urandom(16)
-        
-        # Create cipher
         cipher = AES.new(get_encryption_key(), AES.MODE_CBC, iv)
-        
-        # Encrypt the message
         encrypted = cipher.encrypt(pad(message_bytes, AES.block_size))
-        
-        # Combine IV and encrypted message
         combined = iv + encrypted
-        
-        # Encode as base64 for storage
         return base64.b64encode(combined).decode('utf-8')
     except Exception as e:
         print(f"Encryption error: {str(e)}")
@@ -48,20 +37,11 @@ def encrypt_message(message):
 
 def decrypt_message(encrypted_message):
     try:
-        # Decode from base64
         combined = base64.b64decode(encrypted_message)
-        
-        # Extract IV and encrypted message
         iv = combined[:16]
         encrypted = combined[16:]
-        
-        # Create cipher
         cipher = AES.new(get_encryption_key(), AES.MODE_CBC, iv)
-        
-        # Decrypt the message
         decrypted = unpad(cipher.decrypt(encrypted), AES.block_size)
-        
-        # Convert back to string
         return decrypted.decode('utf-8')
     except Exception as e:
         print(f"Decryption error: {str(e)}")

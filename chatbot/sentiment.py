@@ -3,7 +3,6 @@ import torch
 import emoji
 import re
 
-# Load model and tokenizer
 MODEL = "cardiffnlp/twitter-roberta-base-sentiment"
 tokenizer = AutoTokenizer.from_pretrained(MODEL)
 model = AutoModelForSequenceClassification.from_pretrained(MODEL)
