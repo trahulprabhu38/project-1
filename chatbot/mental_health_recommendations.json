@@ -21,17 +21,17 @@
             {
                 "title": "The Calmer You Podcast",
                 "description": "This podcast provides practical tools and expert advice for managing anxiety and building confidence.",
-                "url": "https://open.spotify.com/show/7zqQyNj3xZrU7vQZZm8iNf"
+                "url": "https://open.spotify.com/show/4h4D3zsv0RtHzQ9VPv79ta"
             },
             {
                 "title": "The Anxiety Coaches Podcast",
                 "description": "Focused on helping listeners overcome anxiety naturally, this show offers supportive conversations and coping strategies.",
-                "url": "https://open.spotify.com/show/6k1VsPrvKrYXq4v3CIo1Ml"
+                "url": "https://open.spotify.com/show/7mOVgqGsz5WyPjhLptExcel"
             },
             {
                 "title": "The Mindful Kind",
                 "description": "Short, gentle episodes on mindfulness and anxiety relief, perfect for when you need quick support.",
-                "url": "https://open.spotify.com/show/1iQFCrFml4f7VRqhfF7Zgh"
+                "url": "https://open.spotify.com/show/0S0yOVzX7R6HXN2g5RiKKQ"
             }
         ]
     },
@@ -39,219 +39,75 @@
         "videos": [
             {
                 "title": "The Science of Loneliness",
-                "description": "This video explores the psychological and neurological aspects of loneliness, helping you understand your feelings.",
-                "url": "https://www.youtube.com/watch?v=Uq8WVy7AasY"
+                "description": "This video explores the psychological and neurological effects of loneliness, helping viewers understand and validate their feelings.",
+                "url": "https://www.youtube.com/watch?v=3pmW_Af_Szs"
             },
             {
-                "title": "How to Stop Being Lonely | Jay Shetty",
-                "description": "Jay Shetty shares practical advice on overcoming loneliness and building meaningful connections.",
-                "url": "https://www.youtube.com/watch?v=YbKnojssXK4"
+                "title": "How to Overcome Loneliness | Guy Winch | TEDxMidAtlantic",
+                "description": "Clinical psychologist Guy Winch offers practical advice on healing emotional pain, perfectly suited for times of loneliness.",
+                "url": "https://www.youtube.com/watch?v=3ihqMmoqz_M"
             },
             {
-                "title": "Overcoming Loneliness: 5 Ways to Connect More",
-                "description": "This video offers actionable tips to help you feel less isolated and more connected to others.",
-                "url": "https://www.youtube.com/watch?v=cbh9IpMxQrY"
+                "title": "Dealing with Loneliness | Mental Health Support",
+                "description": "A soothing and informative guide on how to approach feelings of loneliness with compassion and effective coping strategies.",
+                "url": "https://www.youtube.com/watch?v=QgmD-fjCEGU"
             }
         ],
         "podcasts": [
             {
                 "title": "The Lonely Hour",
-                "description": "Explores stories of loneliness from different perspectives, helping listeners feel understood and less isolated.",
-                "url": "https://open.spotify.com/show/4nX5G5tTL8u94x8e7SVQAX"
+                "description": "Exploring stories and experiences around loneliness, this podcast helps normalize and understand the emotion.",
+                "url": "https://open.spotify.com/show/7zzyETF7HNf9XupYD3Htls"
             },
             {
-                "title": "The Science of Happiness",
-                "description": "Episodes often cover loneliness and offer research-backed strategies to foster connection and joy.",
-                "url": "https://open.spotify.com/show/2j8AEKOTk2CssZijTFtNeL"
+                "title": "The Happiness Lab",
+                "description": "This podcast offers science-backed insights on emotions, including loneliness, and how to foster happiness and connection.",
+                "url": "https://open.spotify.com/show/3Jb54YjeHOdxfdN66zPWaC"
             },
             {
-                "title": "Ten Percent Happier with Dan Harris",
-                "description": "Offers mindfulness and meditation techniques to help ease feelings of loneliness and cultivate inner peace.",
-                "url": "https://open.spotify.com/show/6yY9lt9K1i7N3PTIG7Q2HX"
+                "title": "Terrible, Thanks for Asking",
+                "description": "Hosts share deeply personal and relatable stories about loneliness and other hard emotions, creating a feeling of shared experience.",
+                "url": "https://open.spotify.com/show/4RtARABmolP47nUCIEvMRm"
             }
         ]
     },
     "sad": {
         "videos": [
             {
-                "title": "Adele - Someone Like You (Official Music Video)",
-                "description": "This heartfelt song captures the deep emotions of sadness and loss, resonating closely with a melancholy mood.",
-                "url": "https://www.youtube.com/watch?v=hLQl3WQQoQ0"
+                "title": "The Science of Sadness",
+                "description": "This video explores the psychology behind sadness, helping you understand your feelings and why it's okay to feel sad sometimes.",
+                "url": "https://www.youtube.com/watch?v=Q7_Ja1vJ5HU"
             },
             {
-                "title": "Inside Out | Sadness Song | Disney Pixar",
-                "description": "This animated song beautifully reflects feelings of sadness in a gentle, relatable way suitable for processing emotions.",
-                "url": "https://www.youtube.com/watch?v=YWPFqChdGuc"
+                "title": "A Beautiful Sad Song - Illustrated Story",
+                "description": "An emotionally moving story told through beautiful illustrations and music that resonates with feelings of sadness.",
+                "url": "https://www.youtube.com/watch?v=kXYiU_JCYtU"
             },
             {
-                "title": "The Science of Sadness & Why It's Good to Feel It",
-                "description": "An insightful explanation of sadness and why embracing this emotion can be beneficial to mental health.",
-                "url": "https://www.youtube.com/watch?v=3bFI97BhGGw"
+                "title": "Why Do We Cry? The Science Behind Tears",
+                "description": "Understand the biological and emotional reasons for crying, providing comfort during moments of sadness.",
+                "url": "https://www.youtube.com/watch?v=LUw75FzFZpo"
             }
         ],
         "podcasts": [
             {
-                "title": "The Struggle Bus",
-                "description": "Hosts discuss mental health struggles with empathy and humor, offering comfort during sad times.",
-                "url": "https://open.spotify.com/show/4H9zZxNcJMj5AItQflSwKi"
+                "title": "The Happiness Lab",
+                "description": "Explores the science of happiness and sadness, offering insights that help you understand and navigate difficult emotions.",
+                "url": "https://open.spotify.com/show/7s9d3JPXd5qC6Xg1XtZc2v"
             },
             {
                 "title": "Terrible, Thanks for Asking",
-                "description": "Personal stories about pain, sadness, and how people cope, providing connection and understanding.",
-                "url": "https://open.spotify.com/show/6mNscRP5Yd8vXBLSEfjDOx"
+                "description": "Raw and heartfelt interviews where people openly discuss their struggles with sadness and hardship, making listeners feel less alone.",
+                "url": "https://open.spotify.com/show/4f2w2MUVPt6MHxh3yqJE7E"
             },
             {
-                "title": "The Hilarious World of Depression",
-                "description": "Interviews with comedians about their experiences with depression and sadness, balancing honesty with lightness.",
-                "url": "https://open.spotify.com/show/5wQAFRfWJ17flDGS2AlTN3"
+                "title": "The Struggle Bus",
+                "description": "Hosts discuss mental health challenges including sadness with humor and empathy, providing comfort and community.",
+                "url": "https://open.spotify.com/show/5P5Uh8DxazHGeyZpYLtxc6"
             }
         ]
     },
     "stressed": {
-        "videos": [
-            {
-                "title": "10-Minute Guided Meditation for Anxiety",
-                "description": "This calming meditation helps ground you and ease anxious thoughts, making it perfect for moments of stress.",
-                "url": "https://www.youtube.com/watch?v=O-6f5wQXSu8"
-            },
-            {
-                "title": "How to Manage Stress | Mel Robbins",
-                "description": "Mel Robbins offers practical strategies to help you take control and reduce overwhelming stress effectively.",
-                "url": "https://www.youtube.com/watch?v=Lp7E973zozc"
-            },
-            {
-                "title": "Box Breathing Relaxation Technique: How to Calm Feelings of Stress or Anxiety",
-                "description": "A simple, science-backed breathing exercise to quickly reduce stress and restore calm in your day.",
-                "url": "https://www.youtube.com/watch?v=tEmt1Znux58"
-            }
-        ],
-        "podcasts": [
-            {
-                "title": "The Calmer You Podcast",
-                "description": "This podcast provides practical tools and expert advice for managing stress and building inner calm.",
-                "url": "https://open.spotify.com/show/3exoH8HFZzTjuHhf9y0ehi"
-            },
-            {
-                "title": "The Anxiety Coaches Podcast",
-                "description": "Focused on helping listeners overcome anxiety and stress naturally, this show offers supportive conversations and coping strategies.",
-                "url": "https://open.spotify.com/show/4d1AqBWjNxdKsp1vStjU5r"
-            },
-            {
-                "title": "The Mindful Kind",
-                "description": "Short, gentle episodes on mindfulness and stress relief, perfect for when you need quick calming support.",
-                "url": "https://open.spotify.com/show/5e7ggXGZdcRPfHqjrYl2mI"
-            }
-        ]
-    },
-    "depressed": {
-        "videos": [
-            {
-                "title": "Understanding Depression \u2013 The Science of Sadness",
-                "description": "This video breaks down the science of depression in an accessible way, helping you understand the feelings and symptoms you might be experiencing.",
-                "url": "https://www.youtube.com/watch?v=st_0ikYXTt4"
-            },
-            {
-                "title": "How to Cope with Depression | Kati Morton",
-                "description": "Licensed therapist Kati Morton shares practical tips and coping strategies ideal for managing and understanding depression.",
-                "url": "https://www.youtube.com/watch?v=ZR3jCw0rH9U"
-            },
-            {
-                "title": "The Most Honest Video About Depression",
-                "description": "A personal and heartfelt story that captures the reality of depression, offering comfort to those who feel isolated.",
-                "url": "https://www.youtube.com/watch?v=mgQ7PLMSLnw"
-            }
-        ],
-        "podcasts": [
-            {
-                "title": "The Hilarious World of Depression",
-                "description": "This podcast uses humor and honest storytelling to explore depression, making the topic more approachable and less isolating.",
-                "url": "https://open.spotify.com/show/1H9uCVFd7SO6uykqHOrBNO"
-            },
-            {
-                "title": "Depression Detox",
-                "description": "Focused on recovery, this podcast offers insights and strategies for overcoming depression with compassion and hope.",
-                "url": "https://open.spotify.com/show/6BdjaJodPPc4Lc1tJRu5X3"
-            },
-            {
-                "title": "The Struggle Bus",
-                "description": "Hosts share real-life mental health experiences, including depression, providing solidarity and practical advice.",
-                "url": "https://open.spotify.com/show/2e20GZTvbDUY5FWG9Q3a7E"
-            }
-        ]
-    },
-    "frustrated": {
-        "videos": [
-            {
-                "title": "How to Calm Yourself Down When You're Frustrated",
-                "description": "This video offers practical techniques to manage frustration and regain emotional control quickly.",
-                "url": "https://www.youtube.com/watch?v=7XflqBk3XUk"
-            },
-            {
-                "title": "Dealing With Frustration: Tips to Stay Calm",
-                "description": "Learn actionable strategies to reduce frustration and maintain patience in stressful situations.",
-                "url": "https://www.youtube.com/watch?v=gt5J8oqFeAE"
-            },
-            {
-                "title": "Why We Get Frustrated and How to Overcome It",
-                "description": "An insightful explanation of the causes of frustration, paired with helpful advice to overcome it.",
-                "url": "https://www.youtube.com/watch?v=J5VED2DYUq8"
-            }
-        ],
-        "podcasts": [
-            {
-                "title": "The Calm Collective",
-                "description": "This podcast helps listeners process difficult emotions like frustration with thoughtful reflections and coping techniques.",
-                "url": "https://open.spotify.com/show/2zDfW3dQvWqgPNBPOM9FfX"
-            },
-            {
-                "title": "Therapy Chat",
-                "description": "Explore conversations about emotional challenges including frustration and learn strategies for emotional regulation.",
-                "url": "https://open.spotify.com/show/3NV7lTJWMa4kSCbKxP9Hz8"
-            },
-            {
-                "title": "The Mindful Minute",
-                "description": "Offers mindfulness practices tailored to reduce stress and frustration in daily life.",
-                "url": "https://open.spotify.com/show/0ZpH6JjBgM0X6R2UR9lnvK"
-            }
-        ]
-    },
-    "angry": {
-        "videos": [
-            {
-                "title": "How to Deal with Anger and Control Your Temper",
-                "description": "This video offers practical techniques to help you manage anger and respond calmly in difficult situations.",
-                "url": "https://www.youtube.com/watch?v=ZxT9NamE_LI"
-            },
-            {
-                "title": "Anger Management Techniques That Actually Work",
-                "description": "Learn effective strategies to recognize and control anger before it escalates.",
-                "url": "https://www.youtube.com/watch?v=9e8rM30qGE4"
-            },
-            {
-                "title": "Why We Get Angry and How to Stop It | The School of Life",
-                "description": "An insightful explanation of the psychology behind anger and ways to transform it constructively.",
-                "url": "https://www.youtube.com/watch?v=zaEwIEkbM2k"
-            }
-        ],
-        "podcasts": [
-            {
-                "title": "The Anger Management Podcast",
-                "description": "Dedicated to exploring anger and teaching listeners effective ways to handle and reduce it.",
-                "url": "https://open.spotify.com/show/2Z1NB9AqHTWeyRTfppBzVz"
-            },
-            {
-                "title": "Unlocking Us with Bren\u00e9 Brown",
-                "description": "Episodes explore courage and vulnerability, offering perspectives that help understand and soothe anger.",
-                "url": "https://open.spotify.com/show/2fbXhdKsIJ1B9fektGv01B"
-            },
-            {
-                "title": "The Calm Collective",
-                "description": "Discusses emotional wellness and managing difficult feelings, including anger and frustration.",
-                "url": "https://open.spotify.com/show/5Zb5D2p8O9CkkHSu6UJcX9"
-            }
-        ]
-    },
-    "worried": {
         "videos": [
             {
                 "title": "10-Minute Guided Meditation for Anxiety",
@@ -273,17 +129,161 @@
             {
                 "title": "The Calmer You Podcast",
                 "description": "This podcast provides practical tools and expert advice for managing anxiety and building confidence.",
-                "url": "https://open.spotify.com/show/70La0k7qg5l7BgA9xTpc2E"
+                "url": "https://open.spotify.com/show/4etB6qNk6jRZijtPOnkUjF"
             },
             {
                 "title": "The Anxiety Coaches Podcast",
                 "description": "Focused on helping listeners overcome anxiety naturally, this show offers supportive conversations and coping strategies.",
-                "url": "https://open.spotify.com/show/4vzY4x7Yq07MLtJYTsqGkL"
+                "url": "https://open.spotify.com/show/3rcllzUbDVRBT1ZiNYx1kD"
             },
             {
                 "title": "The Mindful Kind",
                 "description": "Short, gentle episodes on mindfulness and anxiety relief, perfect for when you need quick support.",
-                "url": "https://open.spotify.com/show/1H8aWeXceK6lobioN6u6vE"
+                "url": "https://open.spotify.com/show/0avplNhna34mPzWh4pH0hv"
+            }
+        ]
+    },
+    "depressed": {
+        "videos": [
+            {
+                "title": "Understanding Depression: What You Need to Know",
+                "description": "This informative video explains the nature of depression, helping you understand your feelings and reminding you that you're not alone.",
+                "url": "https://www.youtube.com/watch?v=2T7klr47EYk"
+            },
+            {
+                "title": "Coping with Depression: Practical Tips and Strategies",
+                "description": "Offers actionable advice and techniques to manage depressive symptoms and regain a sense of control.",
+                "url": "https://www.youtube.com/watch?v=mfGUhU7iWz0"
+            },
+            {
+                "title": "The Science of Depression: Why We Feel Low",
+                "description": "A clear breakdown of the biological and psychological aspects of depression to help reduce stigma and promote understanding.",
+                "url": "https://www.youtube.com/watch?v=Ew8eaHm5q7I"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "The Hilarious World of Depression",
+                "description": "A mix of humor and candid conversations that provide comfort and reduce the isolation that comes with depression.",
+                "url": "https://open.spotify.com/show/3tHn0TWBa0MHAhucQ62KBy"
+            },
+            {
+                "title": "Depression Detox",
+                "description": "Offers practical advice and motivational stories to help listeners detox their minds from depressive thoughts.",
+                "url": "https://open.spotify.com/show/6zBZTByInm7M6ENlVzVZIK"
+            },
+            {
+                "title": "Mental Illness Happy Hour",
+                "description": "Raw and honest discussions about mental health challenges, offering solidarity and hope.",
+                "url": "https://open.spotify.com/show/3b9l9b4CsQ0dlDlY9TxTzi"
+            }
+        ]
+    },
+    "frustrated": {
+        "videos": [
+            {
+                "title": "How to Deal with Frustration",
+                "description": "This video offers practical strategies to understand and manage your frustration effectively.",
+                "url": "https://www.youtube.com/watch?v=w1emrDlWD-k"
+            },
+            {
+                "title": "Mindfulness Meditation for Frustration and Anger",
+                "description": "A guided meditation session designed to help release feelings of frustration and foster calmness.",
+                "url": "https://www.youtube.com/watch?v=ZToicYcHIOU"
+            },
+            {
+                "title": "David Goggins Motivational Video - Overcoming Frustration",
+                "description": "An inspiring talk to push through frustration and challenges with resilience and determination.",
+                "url": "https://www.youtube.com/watch?v=78I5xk6RehI"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "The Calm Collective",
+                "description": "This podcast explores emotional resilience and offers ways to find peace when feeling overwhelmed or frustrated.",
+                "url": "https://open.spotify.com/show/7i9VjuDYnol3VJOANz2pOm"
+            },
+            {
+                "title": "Unlocking Us with Bren\u00e9 Brown",
+                "description": "Bren\u00e9 Brown discusses vulnerability and emotions, helping listeners understand and work through frustration.",
+                "url": "https://open.spotify.com/show/4rOoJ6Egrf8K2IrywzwOMk"
+            },
+            {
+                "title": "Happier with Gretchen Rubin",
+                "description": "Episodes focus on practical happiness tips which can help overcome feelings of frustration and dissatisfaction.",
+                "url": "https://open.spotify.com/show/1CffVX9ADH9zXsqfkDtT74"
+            }
+        ]
+    },
+    "angry": {
+        "videos": [
+            {
+                "title": "How to Calm Down When You're Angry",
+                "description": "This video provides practical techniques to help you cool down and manage intense anger effectively.",
+                "url": "https://www.youtube.com/watch?v=1RXbaPIL1Ac"
+            },
+            {
+                "title": "The Science of Anger: Why We Get Mad and What To Do About It",
+                "description": "Explore the psychology behind anger and discover strategies to control your emotions and respond calmly.",
+                "url": "https://www.youtube.com/watch?v=Q3TkfQ3Y6-Y"
+            },
+            {
+                "title": "Anger Management Techniques That Actually Work",
+                "description": "Learn several actionable steps and breathing exercises designed to reduce anger in heated moments.",
+                "url": "https://www.youtube.com/watch?v=v99XFc_WBIM"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "The Anger Management Podcast",
+                "description": "Offers insights and tools to help listeners understand and manage their anger constructively.",
+                "url": "https://open.spotify.com/show/3vpXLBgMhYtu6DGeruDzUq"
+            },
+            {
+                "title": "Calm Down Now",
+                "description": "Focused on mindfulness and emotional regulation, this podcast provides strategies to soothe anger.",
+                "url": "https://open.spotify.com/show/1Qvxp6eYKyRPxWB1zJULxv"
+            },
+            {
+                "title": "Mindful Anger Management",
+                "description": "Explores the connection between mindfulness and anger control to foster healthier responses.",
+                "url": "https://open.spotify.com/show/2mW93KeSl0cBtpUfwvt5F7"
+            }
+        ]
+    },
+    "worried": {
+        "videos": [
+            {
+                "title": "10-Minute Guided Meditation for Anxiety",
+                "description": "This calming meditation helps ground you and ease anxious thoughts, making it perfect for moments of worry.",
+                "url": "https://www.youtube.com/watch?v=O-6f5wQXSu8"
+            },
+            {
+                "title": "How to Stop Feeling Anxious About Anxiety | Tim Box | TEDxFolkestone",
+                "description": "This TEDx talk offers practical advice and reassurance for those struggling with worry, helping you feel less alone.",
+                "url": "https://www.youtube.com/watch?v=9c_Bv_FBE-c"
+            },
+            {
+                "title": "Box Breathing Relaxation Technique: How to Calm Feelings of Stress or Anxiety",
+                "description": "A simple, science-backed breathing exercise to quickly reduce worry and restore calm.",
+                "url": "https://www.youtube.com/watch?v=tEmt1Znux58"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "The Calmer You Podcast",
+                "description": "This podcast provides practical tools and expert advice for managing worry and building confidence.",
+                "url": "https://open.spotify.com/show/3bKuoH6TETF4Zmjm8Dg5V7"
+            },
+            {
+                "title": "The Anxiety Coaches Podcast",
+                "description": "Focused on helping listeners overcome worry naturally, this show offers supportive conversations and coping strategies.",
+                "url": "https://open.spotify.com/show/6kXxWMb5BN0Xw04zjW0hPQ"
+            },
+            {
+                "title": "The Mindful Kind",
+                "description": "Short, gentle episodes on mindfulness and anxiety relief, perfect for when you need quick support with worry.",
+                "url": "https://open.spotify.com/show/4rOoJ6Egrf8K2IrywzwOMk"
             }
         ]
     },
@@ -309,305 +309,305 @@
             {
                 "title": "The Calmer You Podcast",
                 "description": "This podcast provides practical tools and expert advice for managing anxiety and building confidence.",
-                "url": "https://open.spotify.com/show/5P5VqQ4GY4bYhR1wGJu5zZ"
+                "url": "https://open.spotify.com/episode/0mnqPeF8CcQXzZbJVoClvE"
             },
             {
                 "title": "The Anxiety Coaches Podcast",
                 "description": "Focused on helping listeners overcome anxiety naturally, this show offers supportive conversations and coping strategies.",
-                "url": "https://open.spotify.com/show/3Jr8PGBlV4X47erzhhmC29"
+                "url": "https://open.spotify.com/episode/2lG1rNGipKULWNyp7clXqv"
             },
             {
                 "title": "The Mindful Kind",
                 "description": "Short, gentle episodes on mindfulness and anxiety relief, perfect for when you need quick support.",
-                "url": "https://open.spotify.com/show/0VpNNsWQOa7mfiNVpF0WuD"
+                "url": "https://open.spotify.com/episode/5G3UPNKrQwCdwsuJJrNK6n"
             }
         ]
     },
     "exhausted": {
         "videos": [
             {
-                "title": "5-Minute Energy Boosting Workout",
-                "description": "A quick, gentle workout designed to revive your energy and help combat exhaustion without overwhelming you.",
-                "url": "https://www.youtube.com/watch?v=Zkjf3FwvTzk"
-            },
-            {
-                "title": "Guided Meditation for Deep Relaxation and Recharging",
-                "description": "This calming meditation aids in relieving tiredness and recharging your mind and body when you feel drained.",
+                "title": "5-Minute Guided Relaxation to Release Exhaustion",
+                "description": "This short guided relaxation helps release physical and mental fatigue, perfect for moments when you're feeling completely exhausted.",
                 "url": "https://www.youtube.com/watch?v=inpok4MKVLM"
             },
             {
-                "title": "Why Am I So Tired All The Time? | Dr. Mike",
-                "description": "An informative video explaining common causes of exhaustion and tips to help you regain your energy.",
-                "url": "https://www.youtube.com/watch?v=3lX4aC5Gbbo"
+                "title": "Yoga for Complete Relaxation and Energy Renewal",
+                "description": "A gentle yoga session designed to restore energy and calm your mind after a long, exhausting day.",
+                "url": "https://www.youtube.com/watch?v=4pKly2JojMw"
+            },
+            {
+                "title": "The Science of Sleep and Why You Feel Exhausted",
+                "description": "This video explains why exhaustion affects your body and brain and offers tips for better rest.",
+                "url": "https://www.youtube.com/watch?v=8bNkNPHQS-o"
             }
         ],
         "podcasts": [
             {
                 "title": "The Calm Collective",
-                "description": "This podcast offers soothing conversations and reflections, ideal for those feeling emotionally and physically exhausted.",
-                "url": "https://open.spotify.com/show/6AgONXeFy6LtBKAf35K8Fq"
+                "description": "This podcast offers gentle reflections on rest and coping with exhaustion, helping listeners find peace during hard times.",
+                "url": "https://open.spotify.com/show/5rXYsPtO2KkcSia3Qvnfws"
             },
             {
-                "title": "Sleepy Time Mumbles",
-                "description": "A podcast of calm, rambling stories and soft speech designed to help you unwind and drift off from exhaustion.",
-                "url": "https://open.spotify.com/show/4oK6cX47VqDMuqHMo9uN5M"
+                "title": "Sleepy",
+                "description": "Perfect for when you\u2019re too tired to focus, this podcast features calming stories that help you drift off and recharge.",
+                "url": "https://open.spotify.com/show/0njkHh8x4hzvt7xrYkT6pR"
             },
             {
-                "title": "The Science of Well-Being",
-                "description": "Insights and tips to improve your mental health and wellbeing, helping you cope with feelings of exhaustion.",
-                "url": "https://open.spotify.com/show/1r2JlNMqbt6r6w0jV0bx48"
+                "title": "Meditative Story",
+                "description": "Engaging stories combined with mindfulness prompts designed to soothe a weary mind and support mental restoration.",
+                "url": "https://open.spotify.com/show/3n6m3k8vAtkFIgA6mYZMO7"
             }
         ]
     },
     "hopeless": {
         "videos": [
             {
-                "title": "Why Do We Feel Hopeless? Understanding Emotions",
-                "description": "This video explores the feeling of hopelessness and offers insight into why it happens, helping you feel less isolated.",
-                "url": "https://www.youtube.com/watch?v=Qksn0pcukaY"
+                "title": "Destroying Hopelessness: How to Find Hope Again",
+                "description": "This video offers heartfelt advice on recognizing and overcoming feelings of hopelessness, helping you rediscover purpose and light.",
+                "url": "https://www.youtube.com/watch?v=2Y7gAkm0Xdc"
             },
             {
-                "title": "Finding Hope When You Feel Hopeless",
-                "description": "A gentle and encouraging talk that provides practical tips to rediscover hope during difficult times.",
-                "url": "https://www.youtube.com/watch?v=4QqwR6OJ3-E"
+                "title": "Overcoming Hopelessness | Motivational Video",
+                "description": "A powerful motivational talk designed to inspire resilience and encourage viewers not to give up, even in the darkest times.",
+                "url": "https://www.youtube.com/watch?v=H14bBuluwB8"
             },
             {
-                "title": "Overcoming Hopelessness \u2014 Motivational Speech",
-                "description": "This motivational video shares inspiring stories and strategies to push through feelings of despair.",
-                "url": "https://www.youtube.com/watch?v=vJXJa5K9_s8"
+                "title": "What To Do When You Feel Hopeless",
+                "description": "This video shares practical steps for coping with hopelessness and reclaiming a sense of control in your life.",
+                "url": "https://www.youtube.com/watch?v=Zxc2KDeDyOI"
             }
         ],
         "podcasts": [
             {
-                "title": "The Hilarious World of Depression",
-                "description": "This podcast shares honest and often humorous conversations about depression and hopelessness, reminding you you're not alone.",
-                "url": "https://open.spotify.com/show/5hjGBGebP6Uw7rSrvgk20l"
+                "title": "The Science of Happiness",
+                "description": "Explores the psychology behind hope and happiness, offering insights and stories to uplift those feeling hopeless.",
+                "url": "https://open.spotify.com/show/54n7uQkxnJURaswNq9ToE2"
             },
             {
                 "title": "Mental Illness Happy Hour",
-                "description": "An open, honest podcast about mental health struggles, offering connection and understanding for those feeling hopeless.",
-                "url": "https://open.spotify.com/show/0VyswqKIhfdYTcNMPWmdth"
+                "description": "A raw and honest podcast discussing mental health struggles including hopelessness, providing connection and understanding.",
+                "url": "https://open.spotify.com/show/4Vxr7nr77NR9JUaT2TROxu"
             },
             {
-                "title": "Terrible, Thanks for Asking",
-                "description": "Real life stories that explore difficult feelings like hopelessness, helping listeners find comfort and empathy.",
-                "url": "https://open.spotify.com/show/2vPZncT5CrHUqf2mkixWag"
+                "title": "The Hilarious World of Depression",
+                "description": "This podcast blends humor and mental health, helping listeners find light in dark moments of hopelessness.",
+                "url": "https://open.spotify.com/show/3AlhSiezg9xmjZI28TzDYM"
             }
         ]
     },
     "shame": {
         "videos": [
             {
-                "title": "Overcoming Shame: Bren\u00e9 Brown on Vulnerability and Courage",
-                "description": "Bren\u00e9 Brown explores how embracing vulnerability can help overcome feelings of shame and build authentic connections.",
-                "url": "https://www.youtube.com/watch?v=psN1DORYYV0"
+                "title": "The Power of Vulnerability | Bren\u00e9 Brown",
+                "description": "This TED Talk explores shame and vulnerability, shedding light on how embracing these emotions can lead to connection and healing.",
+                "url": "https://www.youtube.com/watch?v=iCvmsMzlF7o"
             },
             {
-                "title": "What is Shame? | How to Recognize and Heal",
-                "description": "This video explains the nature of shame and offers practical steps towards healing and self-compassion.",
-                "url": "https://www.youtube.com/watch?v=DFplz0aXUCM"
+                "title": "Understanding Shame: Why It Hurts and How to Heal",
+                "description": "A compassionate explanation of shame\u2019s impact on our lives and practical steps toward self-acceptance and recovery.",
+                "url": "https://www.youtube.com/watch?v=6zHhixQu9xM"
             },
             {
-                "title": "How to Deal with Shame and Guilt | Therapist Explains",
-                "description": "A therapist guides viewers through understanding shame and guilt, providing coping strategies for these difficult emotions.",
-                "url": "https://www.youtube.com/watch?v=93AJTPt39Yk"
+                "title": "How to Break Free From Shame | TEDx Talks",
+                "description": "This inspiring talk offers insights and strategies to overcome shame and rebuild self-worth effectively.",
+                "url": "https://www.youtube.com/watch?v=QYdNiDaJsWw"
             }
         ],
         "podcasts": [
             {
                 "title": "Unlocking Us with Bren\u00e9 Brown",
-                "description": "Bren\u00e9 Brown dives into stories about vulnerability and shame, helping listeners understand and heal these emotions.",
-                "url": "https://open.spotify.com/episode/7gROIn8IhpXY1a47MmyK9p"
+                "description": "Bren\u00e9 Brown dives deep into the topics of shame and vulnerability, offering stories and insights to help listeners heal and grow.",
+                "url": "https://open.spotify.com/show/0jTxwyRvp7W4KFgJW6Jzw7"
             },
             {
-                "title": "The Trauma Therapist Podcast",
-                "description": "Focusing on healing trauma, this podcast often addresses shame as a central theme in personal recovery.",
-                "url": "https://open.spotify.com/episode/2RvNVzo4mKhxEZz14yRNBT"
+                "title": "The Science of Self-Compassion",
+                "description": "This episode explores the role of self-compassion in overcoming shame and building emotional resilience.",
+                "url": "https://open.spotify.com/episode/2E2Cpm3cEBW1TEbMDFQqGt"
             },
             {
-                "title": "The Science of Happiness",
-                "description": "This podcast explores psychological research on emotions like shame and offers positivity and resilience-building techniques.",
-                "url": "https://open.spotify.com/episode/5PlxsK9Q3QuQl5caBWkv4g"
+                "title": "The Vulnerability Podcast",
+                "description": "Focused on embracing vulnerability and facing shame, this show provides honest conversations and healing strategies.",
+                "url": "https://open.spotify.com/episode/07Q8vg4pG9DxVJ8euF64SP"
             }
         ]
     },
     "fear": {
         "videos": [
             {
-                "title": "Understanding Fear and How to Overcome It",
-                "description": "This video breaks down the psychology of fear and offers practical ways to face and manage it.",
-                "url": "https://www.youtube.com/watch?v=sQ0pJe04rN4"
+                "title": "How to Overcome Fear | Marie Forleo",
+                "description": "Marie explains practical steps to face and overcome fear, making it easier to regain control in anxious moments.",
+                "url": "https://www.youtube.com/watch?v=MpuykqUXYOw"
             },
             {
-                "title": "How Fear Works - Fight or Flight Response Explained",
-                "description": "An informative explanation of the body's natural fear response and how to regain control when afraid.",
-                "url": "https://www.youtube.com/watch?v=EFIrGZlQkgI"
+                "title": "Why Do We Get Scared? | The Psychology of Fear",
+                "description": "This video explores the science behind fear and why our brains react the way they do, helping you understand your emotions better.",
+                "url": "https://www.youtube.com/watch?v=c1K2v3O6Mw0"
             },
             {
-                "title": "Overcoming Fear: The Science of Courage",
-                "description": "This video explores the neuroscience behind fear and courage, providing insights to transform fear into strength.",
-                "url": "https://www.youtube.com/watch?v=d6wRkzCW5qI"
+                "title": "How to Manage Fear and Anxiety | Kati Morton",
+                "description": "Licensed therapist Kati Morton shares effective coping strategies to manage fear and anxiety in everyday life.",
+                "url": "https://www.youtube.com/watch?v=Lb7rv8YekPM"
             }
         ],
         "podcasts": [
             {
-                "title": "The Anxiety Coaches Podcast",
-                "description": "This podcast provides supportive strategies specifically for managing fear and anxiety in daily life.",
-                "url": "https://open.spotify.com/show/3z7XeShN1EXkKCIvMna7Oo"
+                "title": "The Fear Warrior Show",
+                "description": "This podcast offers stories and techniques for transforming fear into power and confidence.",
+                "url": "https://open.spotify.com/show/4EgvQrOktxYZLclfCacI0a"
             },
             {
-                "title": "The Fear Guru",
-                "description": "Focused on understanding the roots of fear and offering tools to face it with courage and calm.",
-                "url": "https://open.spotify.com/show/5KwFZFYtGRXe5jQVbVhndA"
+                "title": "Unlocking Us with Bren\u00e9 Brown",
+                "description": "Bren\u00e9 Brown discusses vulnerability and fear, helping listeners embrace their emotions authentically.",
+                "url": "https://open.spotify.com/show/4rOoJ6Egrf8K2IrywzwOMk"
             },
             {
-                "title": "Overcome Fear & Anxiety",
-                "description": "Episodes feature expert advice and real-life stories aimed at helping listeners overcome fear-related challenges.",
-                "url": "https://open.spotify.com/show/6WkRknmyStQD7ImNGFvU67"
+                "title": "The Anxiety and Fear Podcast",
+                "description": "Focused on understanding and managing fear, this podcast provides practical advice and encouragement.",
+                "url": "https://open.spotify.com/show/1AEhFQzWAdcR0cruFM4dK9"
             }
         ]
     },
     "panic": {
         "videos": [
             {
-                "title": "How to Calm Yourself When You\u2019re Having a Panic Attack",
-                "description": "This video offers step-by-step techniques to help you regain control and calm down during a panic attack.",
-                "url": "https://www.youtube.com/watch?v=92iEK_5T2RA"
+                "title": "How to Stop a Panic Attack Fast",
+                "description": "This video offers quick and effective techniques to regain control during a panic attack, making it ideal for moments of intense panic.",
+                "url": "https://www.youtube.com/watch?v=EyN5VXLYZs4"
             },
             {
-                "title": "Understanding Panic Attacks: Symptoms and How to Cope",
-                "description": "An informative guide that explains panic attacks and provides practical coping strategies to manage the overwhelming feelings.",
-                "url": "https://www.youtube.com/watch?v=SvJ_6lKyLYw"
+                "title": "Stop Panic Attacks Using This Breathing Technique",
+                "description": "A practical guide to using controlled breathing to calm your nervous system and reduce panic symptoms immediately.",
+                "url": "https://www.youtube.com/watch?v=8iluu6n7UeE"
             },
             {
-                "title": "5-Minute Breathing Exercise to Stop Panic Attacks",
-                "description": "A quick and effective breathing exercise designed specifically to reduce panic symptoms and restore calm immediately.",
-                "url": "https://www.youtube.com/watch?v=YFdZXwE6fRE"
+                "title": "Understanding Panic Attacks and How to Cope",
+                "description": "This explanatory video breaks down what triggers panic attacks and provides strategies to handle them effectively.",
+                "url": "https://www.youtube.com/watch?v=Zy3laZnh7n8"
             }
         ],
         "podcasts": [
             {
-                "title": "The Anxiety Guy Podcast",
-                "description": "This podcast provides clear advice and strategies to manage panic and anxiety, helping you feel more in control.",
-                "url": "https://open.spotify.com/show/4rneHBN3aaq33cRh1kvWbk"
+                "title": "The Panic Attack Strategy Podcast",
+                "description": "Focused specifically on panic attacks, this podcast provides practical tools and personal stories to help you cope.",
+                "url": "https://open.spotify.com/show/1b1v5v9W2QMT6OQEAj1iKj"
             },
             {
-                "title": "The Calmer You Podcast",
-                "description": "Focused on practical tools to soothe panic symptoms and reduce anxiety in everyday life.",
-                "url": "https://open.spotify.com/show/3hZc02DE5vLP9n0aZhVnqV"
+                "title": "The Anxiety Guru",
+                "description": "Host shares expert advice and techniques to manage anxiety and panic, supporting listeners during overwhelming moments.",
+                "url": "https://open.spotify.com/show/3bX0Y66lZUk6UyTxtROwIz"
             },
             {
-                "title": "Therapy for Black Girls",
-                "description": "Insightful discussions on mental health that include managing panic attacks with compassion and care.",
-                "url": "https://open.spotify.com/show/0liGSllgxPqk6yZG1SHBQz"
+                "title": "The Calm Collective",
+                "description": "Explores mindfulness and calming strategies, perfect for soothing panic and regaining control.",
+                "url": "https://open.spotify.com/show/2KY3hO7zK6gY0nmDfEt8L2"
             }
         ]
     },
     "self-doubt": {
         "videos": [
             {
-                "title": "Overcoming Self-Doubt: How to Build Confidence",
-                "description": "This video offers practical steps to challenge and overcome self-doubt, helping you build lasting confidence.",
-                "url": "https://www.youtube.com/watch?v=YBVZMFDPpnI"
+                "title": "Overcoming Self-Doubt: How to Believe in Yourself",
+                "description": "This video offers practical tips and encouragement to help you build confidence and silence your inner critic.",
+                "url": "https://www.youtube.com/watch?v=YHNJtbzdcHI"
             },
             {
-                "title": "The Power of Self-Belief | TEDx Talks",
-                "description": "A motivational TEDx talk that inspires listeners to trust themselves and overcome internal doubts.",
-                "url": "https://www.youtube.com/watch?v=2PnnFrPaRgk"
+                "title": "How to Stop Being So Hard on Yourself | Mel Robbins",
+                "description": "Mel Robbins shares strategies to challenge negative self-talk and boost self-esteem when self-doubt strikes.",
+                "url": "https://www.youtube.com/watch?v=Lp7E973zozc"
             },
             {
-                "title": "How to Stop Self-Doubt From Holding You Back",
-                "description": "Helpful advice on recognizing and stopping the negative thought patterns that fuel self-doubt.",
-                "url": "https://www.youtube.com/watch?v=MRZPpWvj3Pk"
+                "title": "The Power of Vulnerability | Bren\u00e9 Brown",
+                "description": "Bren\u00e9 Brown explains how embracing vulnerability can reduce feelings of self-doubt and increase courage.",
+                "url": "https://www.youtube.com/watch?v=iCvmsMzlF7o"
             }
         ],
         "podcasts": [
             {
                 "title": "The Confidence Chronicles",
-                "description": "This podcast explores personal growth and overcoming self-doubt through inspiring stories and expert advice.",
-                "url": "https://open.spotify.com/show/4HxM6G1HGlqbOWZSzBq1iI"
+                "description": "This podcast dives into personal stories and expert advice to help you overcome self-doubt and build lasting confidence.",
+                "url": "https://open.spotify.com/show/0yEbZ2Mr2rUJiNEHuSUg6k"
             },
             {
-                "title": "The Self-Love Fix",
-                "description": "Focused on building self-worth and silencing self-doubt, this show offers compassionate and practical guidance.",
-                "url": "https://open.spotify.com/show/2MkpDkwXO6KggtZkLdzIYc"
+                "title": "The Self Love Fix",
+                "description": "Focused on healing your inner critic, this podcast offers tools to nurture self-acceptance and quiet self-doubt.",
+                "url": "https://open.spotify.com/show/6RKgVkvhSlH3CQhCsqaQXp"
             },
             {
                 "title": "The Life Coach School Podcast",
-                "description": "Hosted by Brooke Castillo, this podcast provides tools for managing self-doubt and creating confidence.",
-                "url": "https://open.spotify.com/show/4D5QZjZLUX5n0LhGrzG9Qx"
+                "description": "Host Brooke Castillo shares insights on managing your mind and turning self-doubt into empowerment.",
+                "url": "https://open.spotify.com/show/6FlnuK6EthFHL6jSB7DqBe"
             }
         ]
     },
     "low self-esteem": {
         "videos": [
             {
-                "title": "How to Build Self-Esteem and Believe in Yourself",
-                "description": "This video provides practical tips and encouragement to help you start building confidence and self-worth.",
-                "url": "https://www.youtube.com/watch?v=meoY_RzLTOY"
+                "title": "Building Self-Esteem: How to Love Yourself",
+                "description": "This video offers practical tips to help you develop self-love and improve your self-esteem when feeling low.",
+                "url": "https://www.youtube.com/watch?v=LvQ6OdaaXEg"
             },
             {
-                "title": "Overcoming Low Self-Esteem | Marisa Peer",
-                "description": "A motivational talk that explains the root causes of low self-esteem and how to change your mindset effectively.",
-                "url": "https://www.youtube.com/watch?v=3SOy0eEB7Co"
+                "title": "The Power of Vulnerability | Bren\u00e9 Brown",
+                "description": "Bren\u00e9 Brown\u2019s talk explores embracing vulnerability, which is key to overcoming feelings of low self-worth.",
+                "url": "https://www.youtube.com/watch?v=iCvmsMzlF7o"
             },
             {
-                "title": "The Power of Self-Compassion",
-                "description": "Learn how being kind to yourself can boost your self-esteem and improve your overall well-being.",
-                "url": "https://www.youtube.com/watch?v=IvtZBUSplr4"
+                "title": "How to Stop Being So Hard on Yourself",
+                "description": "A gentle guide to easing self-criticism and fostering a kinder relationship with yourself.",
+                "url": "https://www.youtube.com/watch?v=IajQpvYpu7E"
             }
         ],
         "podcasts": [
             {
                 "title": "The Self-Esteem Podcast",
-                "description": "Focused on helping listeners develop healthier self-esteem, this podcast offers practical advice and inspiring stories.",
-                "url": "https://open.spotify.com/show/1vVIACt5Tyxoy9YsbWS6Nq"
+                "description": "Dedicated to improving self-worth, this podcast offers inspiring stories and actionable advice to boost confidence.",
+                "url": "https://open.spotify.com/show/3D0cI2XTz5paEyh9ux1PRv"
             },
             {
                 "title": "The Confidence Chronicles",
-                "description": "Tips and conversations about overcoming self-doubt and building lasting confidence in your everyday life.",
-                "url": "https://open.spotify.com/show/3LipP7wCz49EKUvskPZ7Nh"
+                "description": "This show helps listeners build confidence and overcome self-doubt with practical tips and honest conversations.",
+                "url": "https://open.spotify.com/show/2ra2EPrUEHrEwun4b9hi6p"
             },
             {
-                "title": "The Calm Collective",
-                "description": "This podcast explores self-reflection and self-acceptance, which are essential for improving low self-esteem.",
-                "url": "https://open.spotify.com/show/5NvAw3F1vAeOmXDxENunFZ"
+                "title": "Therapy Chat",
+                "description": "Focused on mental health education, this podcast provides insights that support healing from low self-esteem.",
+                "url": "https://open.spotify.com/show/6zF1fQ0xKMR7tsFQ0ojtB6"
             }
         ]
     },
     "distressed": {
         "videos": [
             {
-                "title": "5-Minute Stress Relief Guided Meditation",
-                "description": "A short guided meditation designed to quickly calm distress and help you regain composure.",
-                "url": "https://www.youtube.com/watch?v=MIr3RsUWrdo"
+                "title": "10-Minute Guided Meditation for Anxiety Relief",
+                "description": "This guided meditation helps calm a distressed mind by focusing on deep breathing and relaxation techniques.",
+                "url": "https://www.youtube.com/watch?v=O-6f5wQXSu8"
             },
             {
-                "title": "How to Manage Distress and Strong Emotions",
-                "description": "This video offers practical strategies to understand and cope with distressing feelings effectively.",
-                "url": "https://www.youtube.com/watch?v=1Evwgu369Jw"
+                "title": "How to Manage Distress and Emotional Overwhelm | Dr. Todd Grande",
+                "description": "This video explains emotional distress and provides practical strategies to regain control and find calm.",
+                "url": "https://www.youtube.com/watch?v=Zdzc26mFzVU"
             },
             {
-                "title": "The Science of Stress and How to Manage It",
-                "description": "An accessible explanation of stress responses with tips to reduce distress and improve emotional regulation.",
-                "url": "https://www.youtube.com/watch?v=hnpQrMqDoqE"
+                "title": "Calm Your Nerves: Coping Strategies for Emotional Distress",
+                "description": "A helpful video offering tips to soothe intense emotions and manage moments of distress effectively.",
+                "url": "https://www.youtube.com/watch?v=x5IHztX8lJk"
             }
         ],
         "podcasts": [
             {
                 "title": "The Calm Collective",
-                "description": "This podcast explores grief, distress, and mindfulness with compassionate insights to help you through tough times.",
-                "url": "https://open.spotify.com/show/4YBHyW55AHTErpZ1D7Yz6j"
+                "description": "This podcast explores topics of grief and distress with compassionate insights to help listeners find peace.",
+                "url": "https://open.spotify.com/show/0S3MQdQ59D3kmj2lOfFbwz"
             },
             {
-                "title": "Therapy for Black Girls",
-                "description": "A supportive podcast providing mental health guidance and conversations suited for managing distress.",
-                "url": "https://open.spotify.com/show/3Oh8iKwE1Z4IYjU1Mlef6s"
+                "title": "Therapy Chat",
+                "description": "Focused on emotional health and distress, this podcast offers practical advice and therapeutic conversations.",
+                "url": "https://open.spotify.com/show/6ns5vlA6ELj4Omc47S0KX7"
             },
             {
-                "title": "The Anxiety Guy Podcast",
-                "description": "Offers relatable advice and techniques for navigating distress and anxiety in daily life.",
-                "url": "https://open.spotify.com/show/3r7pWJst4RhRBSLCd1b6qF"
+                "title": "The Anxiety Coaches Podcast",
+                "description": "Provides supportive discussions and techniques to manage distress and anxiety in daily life.",
+                "url": "https://open.spotify.com/show/7n7RgH4juwghJ6G1pJFpGp"
             }
         ]
     },
@@ -615,35 +615,1979 @@
         "videos": [
             {
                 "title": "How to Find Motivation When You Feel Unmotivated",
-                "description": "This video breaks down simple steps to regain your drive and push through moments of low motivation.",
-                "url": "https://www.youtube.com/watch?v=mgmVOuLgFB0"
+                "description": "This video provides practical steps to spark motivation even on the toughest days, helping to overcome feelings of being unmotivated.",
+                "url": "https://www.youtube.com/watch?v=mgPv6vw1ok0"
             },
             {
-                "title": "The Science of Motivation: What Really Drives Us?",
-                "description": "Explore the psychological reasons behind motivation and learn how to spark it when you're feeling stuck.",
-                "url": "https://www.youtube.com/watch?v=5tF6IS3b8Jk"
+                "title": "5 Ways to Motivate Yourself When You're Feeling Lazy",
+                "description": "Simple and effective strategies are shared to help you push through laziness and regain your motivation.",
+                "url": "https://www.youtube.com/watch?v=meoKqF5o8ps"
             },
             {
-                "title": "5 Ways to Get Motivated Fast",
-                "description": "Quick and practical tips to boost your energy and motivation when you\u2019re feeling uninspired.",
-                "url": "https://www.youtube.com/watch?v=ZXsQAXx_ao0"
+                "title": "The Science of Motivation",
+                "description": "An insightful explanation of how motivation works in the brain, giving you knowledge to better understand and tackle your lack of drive.",
+                "url": "https://www.youtube.com/watch?v=3h1LR1CpKv4"
             }
         ],
         "podcasts": [
             {
-                "title": "The Motivation Manifesto",
-                "description": "This podcast inspires you to reclaim your personal power and push through feelings of demotivation.",
-                "url": "https://open.spotify.com/episode/1QxP2gJ9lvntDffH0hQ8gJ"
+                "title": "The Motivation Podcast",
+                "description": "Offers insightful discussions and tips to help you understand what drives motivation and how to find it when you're feeling unmotivated.",
+                "url": "https://open.spotify.com/episode/3flDCkjN6dqv4NpNOq0S4q"
             },
             {
-                "title": "The Life Coach School Podcast",
-                "description": "Insightful episodes that help you understand your mindset and find motivation to take action.",
-                "url": "https://open.spotify.com/episode/4uGeybWxzvfMzAuVBzFbFy"
+                "title": "The Productivity Show",
+                "description": "Focuses on practical advice to help listeners improve their productivity and overcome procrastination, ideal for those feeling unmotivated.",
+                "url": "https://open.spotify.com/episode/7G3qY9BFctMGUuYsFpyray"
             },
             {
                 "title": "Happier with Gretchen Rubin",
-                "description": "Offers practical habits and mindset shifts to cultivate motivation and happiness in daily life.",
-                "url": "https://open.spotify.com/episode/2WUROK69BUHx3rc8q8hNDw"
+                "description": "This podcast shares strategies and stories aimed at improving happiness and motivation in everyday life.",
+                "url": "https://open.spotify.com/episode/1EE39xOmyK9MlW5hObytNV"
+            }
+        ]
+    },
+    "overwhelmed": {
+        "videos": [
+            {
+                "title": "How to Manage Overwhelm & Stress | Mel Robbins",
+                "description": "Mel Robbins shares practical strategies to break down overwhelming tasks and regain control of your day.",
+                "url": "https://www.youtube.com/watch?v=Lp7E973zozc"
+            },
+            {
+                "title": "3 Ways to Stop Feeling Overwhelmed | Jay Shetty",
+                "description": "This video offers calming techniques and mindset shifts for moments when you feel overloaded and stressed.",
+                "url": "https://www.youtube.com/watch?v=Q5x-PZxGn2Q"
+            },
+            {
+                "title": "Overwhelmed? Try This 5-Minute Breathing Exercise",
+                "description": "A quick, guided breathing exercise designed to calm your nervous system and relieve feelings of overwhelm.",
+                "url": "https://www.youtube.com/watch?v=1nxMM2zPrPQ"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "The Calm Collective",
+                "description": "This podcast explores mindfulness and emotional balance, offering soothing guidance for when life feels overwhelming.",
+                "url": "https://open.spotify.com/show/4hM6WwRBFptzP7zleSkBaY"
+            },
+            {
+                "title": "On Being with Krista Tippett",
+                "description": "Deep, thoughtful conversations that encourage presence and understanding during stressful, overwhelming times.",
+                "url": "https://open.spotify.com/show/2G6tzi21y9Zq4NHdiB2quH"
+            },
+            {
+                "title": "The Mindful Minute",
+                "description": "Short episodes focused on mindfulness meditation, helping listeners find calm and clarity amid overwhelm.",
+                "url": "https://open.spotify.com/show/6vWb1dyozVXT3Z25RZfwqy"
+            }
+        ]
+    },
+    "burnt out": {
+        "videos": [
+            {
+                "title": "How to Recharge When You\u2019re Feeling Burned Out",
+                "description": "This video offers practical strategies to help you recover energy and motivation when burnout is weighing you down.",
+                "url": "https://www.youtube.com/watch?v=8vLJr7K6W48"
+            },
+            {
+                "title": "Burnout Recovery: 5 Signs You Need to Slow Down",
+                "description": "Learn to identify burnout symptoms and take steps towards healing and self-care with this insightful video.",
+                "url": "https://www.youtube.com/watch?v=IYPdk1uHxs0"
+            },
+            {
+                "title": "The Science of Burnout and How to Overcome It",
+                "description": "A detailed explanation of burnout's impact on the brain and effective ways to bounce back.",
+                "url": "https://www.youtube.com/watch?v=6qMkwEjZq3s"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "The Burnout Solution",
+                "description": "This podcast dives deep into the causes of burnout and offers actionable steps to reclaim your energy and passion.",
+                "url": "https://open.spotify.com/show/1B9N9vUZSD5eb7C675eXOc"
+            },
+            {
+                "title": "Therapy for Burnout",
+                "description": "Expert therapists share insights and coping mechanisms tailored specifically for those feeling burnt out.",
+                "url": "https://open.spotify.com/show/3sXbs7gEbQ3hEB1qkLmiXc"
+            },
+            {
+                "title": "The Happiness Lab",
+                "description": "Explores the science of happiness, including how to navigate burnout and improve your well-being.",
+                "url": "https://open.spotify.com/show/4IqjirD1rFZUPHKk2nVQbD"
+            }
+        ]
+    },
+    "guilt": {
+        "videos": [
+            {
+                "title": "The Psychology of Guilt and How to Overcome It",
+                "description": "This video explores the roots of guilt and offers ways to understand and release it for emotional healing.",
+                "url": "https://www.youtube.com/watch?v=Z3FgdpectPI"
+            },
+            {
+                "title": "How to Let Go of Guilt and Shame | Mel Robbins",
+                "description": "Motivational speaker Mel Robbins shares practical advice to break free from guilt and shame, helping you move forward.",
+                "url": "https://www.youtube.com/watch?v=3E-8dpkdG1c"
+            },
+            {
+                "title": "Understanding and Coping with Guilt | Therapy in a Nutshell",
+                "description": "A therapist explains the difference between helpful and harmful guilt and provides strategies to manage it effectively.",
+                "url": "https://www.youtube.com/watch?v=sjsTPkDFWZ4"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "The Forgiveness Project Podcast",
+                "description": "Stories and conversations focused on forgiveness offer hope and guidance for those struggling with guilt.",
+                "url": "https://open.spotify.com/show/2XviuLUTwlTRf3B6x9BWb8"
+            },
+            {
+                "title": "Unlocking Us with Bren\u00e9 Brown",
+                "description": "Bren\u00e9 Brown discusses vulnerability and guilt, helping listeners understand and process these complex emotions.",
+                "url": "https://open.spotify.com/show/2ROhxkNPZXIx0Uun4YQYIB"
+            },
+            {
+                "title": "Therapy Chat",
+                "description": "This podcast dives deep into emotional wellness, with episodes on understanding guilt and cultivating self-compassion.",
+                "url": "https://open.spotify.com/show/0zVkXc7YkLQlfCTDJMhYJu"
+            }
+        ]
+    },
+    "grief": {
+        "videos": [
+            {
+                "title": "Coping with Grief: Understanding the Process",
+                "description": "This video gently explains the stages of grief, helping viewers understand their emotions during difficult times.",
+                "url": "https://www.youtube.com/watch?v=XX8ixYUu_Uc"
+            },
+            {
+                "title": "How to Deal with Grief | Kati Morton",
+                "description": "Licensed therapist Kati Morton shares compassionate advice for managing grief and finding healthy ways to cope.",
+                "url": "https://www.youtube.com/watch?v=Qv8H4Pn2fiE"
+            },
+            {
+                "title": "Grief and Loss: What to Do When You Feel Lost",
+                "description": "A calming guide that offers practical tips and emotional support for those navigating loss.",
+                "url": "https://www.youtube.com/watch?v=VR8dOwN678Q"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "The Griefcast",
+                "description": "An insightful podcast where comedians discuss their experiences with grief, offering a unique blend of humor and honesty.",
+                "url": "https://open.spotify.com/show/2p0jv3LNE3WxyOxJhLpn1c"
+            },
+            {
+                "title": "Grief Out Loud",
+                "description": "This podcast features heartfelt conversations with experts and everyday people about coping with loss and healing.",
+                "url": "https://open.spotify.com/show/0zQa8qMgqOVX9r2suelZCr"
+            },
+            {
+                "title": "Terrible, Thanks for Asking",
+                "description": "A candid podcast exploring grief and difficult emotions with raw stories that resonate deeply.",
+                "url": "https://open.spotify.com/show/6Bh1yGmpzAOqVzIxTGIxUY"
+            }
+        ]
+    },
+    "emptiness": {
+        "videos": [
+            {
+                "title": "Understanding Emptiness: A Buddhist Perspective",
+                "description": "This video explores the concept of emptiness in Buddhism, helping to understand the feeling beyond just a void.",
+                "url": "https://www.youtube.com/watch?v=Zziua7Fx7Xw"
+            },
+            {
+                "title": "The Science of Emptiness and How to Cope",
+                "description": "A thoughtful explanation of the psychological aspects of feeling empty and ways to manage it effectively.",
+                "url": "https://www.youtube.com/watch?v=EwKXn5CapA4"
+            },
+            {
+                "title": "Embracing Emptiness: Mindfulness Meditation",
+                "description": "A guided mindfulness meditation designed to help you safely explore and accept feelings of emptiness.",
+                "url": "https://www.youtube.com/watch?v=inpok4MKVLM"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "Where Should We Begin? with Esther Perel",
+                "description": "Explores complex emotions and human connections, offering insight into feelings of emptiness through real-life counseling sessions.",
+                "url": "https://open.spotify.com/show/5rUX00NI7dxYQ95CS3QqgG"
+            },
+            {
+                "title": "The Happiness Lab with Dr. Laurie Santos",
+                "description": "Delves into emotional well-being and how to find meaning and fulfillment during times of emptiness.",
+                "url": "https://open.spotify.com/show/3wIzoLGsl1oNeK5Cwzs8RQ"
+            },
+            {
+                "title": "On Being with Krista Tippett",
+                "description": "Philosophical and emotional conversations that deeply examine human experiences including solitude and emptiness.",
+                "url": "https://open.spotify.com/show/4slpZfSOiXDAgHKEJRBoYs"
+            }
+        ]
+    },
+    "worthless": {
+        "videos": [
+            {
+                "title": "Inside the Mind of Depression",
+                "description": "This video explores feelings of worthlessness through personal stories and expert insights, helping you understand and validate your emotions.",
+                "url": "https://www.youtube.com/watch?v=5yY_J1PJye4"
+            },
+            {
+                "title": "Why Do I Feel So Worthless? \u2013 How to Overcome Negative Self-Talk",
+                "description": "A helpful guide to recognizing and challenging harmful thoughts that contribute to feeling worthless, offering practical steps forward.",
+                "url": "https://www.youtube.com/watch?v=lKWbFWwz65c"
+            },
+            {
+                "title": "The Science of Feeling Worthless and How to Change It",
+                "description": "This video breaks down the psychological causes of worthlessness and provides compassionate advice on healing and self-compassion.",
+                "url": "https://www.youtube.com/watch?v=hrITt6Dw5-Y"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "The Self-Esteem and Confidence Mindset",
+                "description": "This podcast episode helps listeners understand low self-worth and provides tools to cultivate a healthier self-image.",
+                "url": "https://open.spotify.com/episode/4Vq9uBqAqePtNnTCaCSQpe"
+            },
+            {
+                "title": "The Science of Happiness: Overcoming Feelings of Worthlessness",
+                "description": "A compassionate look at why we feel worthless and practical advice on how to nurture self-compassion and resilience.",
+                "url": "https://open.spotify.com/episode/3MxDy8QXyXo8C2y3WLP9zj"
+            },
+            {
+                "title": "Unlocking Your Worth: Conversations About Self-Worth",
+                "description": "This podcast offers intimate discussions and expert insights to help listeners reconnect with their value.",
+                "url": "https://open.spotify.com/episode/6Lq7QjYK7HmU3VxRXzQY0v"
+            }
+        ]
+    },
+    "helpless": {
+        "videos": [
+            {
+                "title": "How to Cope with Feeling Helpless",
+                "description": "This video offers practical steps to regain control and find hope when feeling overwhelmed by helplessness.",
+                "url": "https://www.youtube.com/watch?v=fvGqkY35VUo"
+            },
+            {
+                "title": "Feelings of Helplessness and What to Do About Them",
+                "description": "A compassionate guide explaining why we feel helpless and ways to empower ourselves again.",
+                "url": "https://www.youtube.com/watch?v=WUL468fMLT4"
+            },
+            {
+                "title": "Overcoming Helplessness | Motivation and Recovery",
+                "description": "This motivational talk helps you understand helplessness and discover pathways to take action and heal.",
+                "url": "https://www.youtube.com/watch?v=QO8Xqbsf2eE"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "The Trauma Therapist Podcast",
+                "description": "Insightful conversations that empower listeners to work through feelings of helplessness and trauma recovery.",
+                "url": "https://open.spotify.com/show/0Zb3WzLGsaPXV4TdYELZTK"
+            },
+            {
+                "title": "Unlocking Us with Bren\u00e9 Brown",
+                "description": "Explores vulnerability and resilience, offering hope and tools to face feelings of helplessness.",
+                "url": "https://open.spotify.com/show/2vBKitGX34swdntJ23aBhN"
+            },
+            {
+                "title": "On Being with Krista Tippett",
+                "description": "Thoughtful reflections that help find meaning and peace amidst challenging emotions, including helplessness.",
+                "url": "https://open.spotify.com/show/3nSSXmdBzoTuY1uqUQBytr"
+            }
+        ]
+    },
+    "restless": {
+        "videos": [
+            {
+                "title": "Calming Music for Restlessness and Anxiety Relief",
+                "description": "This soothing music video helps calm your mind and body, ideal for when you feel restless and need to relax.",
+                "url": "https://www.youtube.com/watch?v=2OEL4P1Rz04"
+            },
+            {
+                "title": "Mindfulness Meditation to Ease Restlessness",
+                "description": "A guided meditation designed to ground your thoughts and ease feelings of restlessness in just a few minutes.",
+                "url": "https://www.youtube.com/watch?v=ZToicYcHIOU"
+            },
+            {
+                "title": "10-Minute Yoga Flow for Restlessness and Stress",
+                "description": "This gentle yoga session targets restlessness and tension, helping you find calm through movement.",
+                "url": "https://www.youtube.com/watch?v=4pKly2JojMw"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "The Calm Collective",
+                "description": "This podcast offers thoughtful conversations on managing mental clutter and restlessness, helping you find peace in chaos.",
+                "url": "https://open.spotify.com/show/1enaFtQZDbgDTRo02Ymcks"
+            },
+            {
+                "title": "On Being with Krista Tippett",
+                "description": "Explore deep philosophical and spiritual discussions that can soothe a restless mind and spark introspection.",
+                "url": "https://open.spotify.com/show/6mZPCnFjzJ9k7uM4WJ4cvA"
+            },
+            {
+                "title": "Untangle",
+                "description": "Interviews with mindfulness experts and practitioners who share strategies to overcome restlessness and increase calm.",
+                "url": "https://open.spotify.com/show/16NW4pJxUGxk2AW2Wnv08m"
+            }
+        ]
+    },
+    "isolated": {
+        "videos": [
+            {
+                "title": "Feeling Lonely? Here's How to Cope with Isolation",
+                "description": "This video offers practical strategies to handle feelings of isolation, helping you find comfort and connection even when alone.",
+                "url": "https://www.youtube.com/watch?v=rnE3fO6iIkQ"
+            },
+            {
+                "title": "The Science of Loneliness and How to Overcome It",
+                "description": "Explaining the psychological effects of isolation, this video provides insights and ways to reconnect with yourself and others.",
+                "url": "https://www.youtube.com/watch?v=8pGxrF2etaU"
+            },
+            {
+                "title": "How to Thrive in Isolation | TEDx Talk",
+                "description": "A motivational talk that teaches how to turn solitude into a time of growth and self-discovery.",
+                "url": "https://www.youtube.com/watch?v=UVQROo_5YbM"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "The Isolation Podcast",
+                "description": "This podcast explores stories and strategies to manage and understand the emotional impact of being isolated.",
+                "url": "https://open.spotify.com/show/3zGqhJ4Nxv1W0owXTxykXy"
+            },
+            {
+                "title": "Lonely But Not Alone",
+                "description": "Focusing on transforming loneliness into meaningful solitude, this show provides thoughtful reflections and advice.",
+                "url": "https://open.spotify.com/show/1gyDTVzISdrw6sD3rQwPMx"
+            },
+            {
+                "title": "The Happy Isolation",
+                "description": "Sharing uplifting interviews and tips, this podcast helps listeners find joy and connection in isolated times.",
+                "url": "https://open.spotify.com/show/4g8EafvyZQSOSw1xDCuklp"
+            }
+        ]
+    },
+    "insecure": {
+        "videos": [
+            {
+                "title": "Insecure | Official Trailer | HBO",
+                "description": "Get a glimpse of the show's relatable and honest portrayal of life and relationships, perfectly capturing the mood of insecurity and self-discovery.",
+                "url": "https://www.youtube.com/watch?v=ElUYTE6nDiY"
+            },
+            {
+                "title": "Issa Rae on Creating 'Insecure' | Vanity Fair",
+                "description": "Issa Rae discusses the personal inspirations behind Insecure, resonating with feelings of insecurity and growth in young adulthood.",
+                "url": "https://www.youtube.com/watch?v=5USx7z2rJ9E"
+            },
+            {
+                "title": "How to Deal with Insecurity | Mel Robbins",
+                "description": "Motivational advice to overcome self-doubt and insecurity, offering practical ways to build confidence.",
+                "url": "https://www.youtube.com/watch?v=Lp7E973zozc"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "The Science of Happiness",
+                "description": "This podcast explores psychological research on happiness and overcoming insecurity, helping listeners build self-compassion.",
+                "url": "https://open.spotify.com/show/5j8m6Wg5TJ9eCH7TRgpkYp"
+            },
+            {
+                "title": "Unlocking Us with Bren\u00e9 Brown",
+                "description": "Bren\u00e9 Brown dives deep into vulnerability, courage, and insecurity through heartfelt conversations and stories.",
+                "url": "https://open.spotify.com/show/2jiXb8AXzjv5CjTMujR8yu"
+            },
+            {
+                "title": "The Confidence Chronicles",
+                "description": "Focused on building self-confidence and tackling insecurities, this podcast offers practical advice and personal stories.",
+                "url": "https://open.spotify.com/show/2zf7B569qRJkFcTl0Wu9kN"
+            }
+        ]
+    },
+    "broken": {
+        "videos": [
+            {
+                "title": "Fixing a Broken Phone Screen the Easy Way",
+                "description": "This video provides straightforward steps to repair a broken phone screen, perfect for anyone dealing with broken tech frustration.",
+                "url": "https://www.youtube.com/watch?v=4HcgqgalSMQ"
+            },
+            {
+                "title": "How to Fix a Broken Heart - Emotional Healing Tips",
+                "description": "A compassionate guide to overcoming emotional pain and finding strength after feeling broken inside.",
+                "url": "https://www.youtube.com/watch?v=5j6ZZwA9BzI"
+            },
+            {
+                "title": "Repairing a Broken Wooden Chair: Step-by-Step Tutorial",
+                "description": "A hands-on tutorial that shows how to lovingly restore broken furniture, ideal for bringing things back to life.",
+                "url": "https://www.youtube.com/watch?v=K3Nz82tRZyo"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "Healing from Brokenness",
+                "description": "This podcast offers stories and advice on recovering from emotional and mental brokenness with compassion and strength.",
+                "url": "https://open.spotify.com/episode/4kxQfWj2x5LCjK36oP2zEf"
+            },
+            {
+                "title": "Fix It! The Repair Podcast",
+                "description": "Focused on DIY repairs and fixing broken items around the home, this podcast makes mending satisfying and achievable.",
+                "url": "https://open.spotify.com/episode/2yTWrPQfLPRLHEjfkRwC64"
+            },
+            {
+                "title": "Broken to Beautiful",
+                "description": "An inspiring show that explores personal transformations after moments of brokenness and struggle.",
+                "url": "https://open.spotify.com/episode/3lM8eCF2KjQXyS0Y3NXq9X"
+            }
+        ]
+    },
+    "lost": {
+        "videos": [
+            {
+                "title": "Exploring the Mysteries of Lost: Official Recap",
+                "description": "A comprehensive recap that dives into the enigmatic storylines, perfect for feeling immersed in the show's sense of mystery and confusion.",
+                "url": "https://www.youtube.com/watch?v=_b48ZDZtSRg"
+            },
+            {
+                "title": "Lost - The Most Mind-Bending Moments Explained",
+                "description": "This video breaks down complex plot twists and mysteries, mirroring the perplexing and disoriented mood of being lost.",
+                "url": "https://www.youtube.com/watch?v=FXAyeqyzRQk"
+            },
+            {
+                "title": "The Philosophy of Lost: Meaning in the Chaos",
+                "description": "Analyzes Lost\u2019s deeper themes surrounding identity and purpose, aligning with feelings of searching and existential lostness.",
+                "url": "https://www.youtube.com/watch?v=piHCF1k-5mU"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "The Lost Podcast",
+                "description": "Dedicated to discussing the mysteries and theories of Lost, this podcast perfectly matches the mood of intrigue and searching.",
+                "url": "https://open.spotify.com/show/4OkYRLh4bDw5hEJuQzNOvN"
+            },
+            {
+                "title": "Mystery Theory",
+                "description": "Explore unsolved mysteries and obscure lore, giving a sense of adventure and discovery suited to feeling lost and curious.",
+                "url": "https://open.spotify.com/show/5weXeNWApZqv66DkaQpn2a"
+            },
+            {
+                "title": "Lore",
+                "description": "A podcast that tells stories of strange and eerie events, ideal for those drawn to the unknown and mysterious.",
+                "url": "https://open.spotify.com/show/2Ao7kJfCroxCXBk7UExYVZ"
+            }
+        ]
+    },
+    "unloved": {
+        "videos": [
+            {
+                "title": "How to Deal with Feeling Unloved",
+                "description": "This video offers compassionate advice on understanding and coping with feelings of being unloved, helping you feel less isolated.",
+                "url": "https://www.youtube.com/watch?v=ZyV5H6vTSfA"
+            },
+            {
+                "title": "The Science of Loneliness and How to Beat It",
+                "description": "Exploring the psychological effects of loneliness, this video provides insights and practical tips to reconnect with yourself and others.",
+                "url": "https://www.youtube.com/watch?v=DLsy5fdp1_4"
+            },
+            {
+                "title": "Why We Feel Alone Even When We're Not",
+                "description": "This thought-provoking talk helps explain the emotional experience of feeling unloved and offers ways to find genuine connection.",
+                "url": "https://www.youtube.com/watch?v=XTxzgBL0gf4"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "The Science of Happiness: Loving Yourself",
+                "description": "This episode explores how to cultivate self-love and overcome feelings of being unloved through positive psychology.",
+                "url": "https://open.spotify.com/episode/1URnnhqYAYcrqrcwql10ft"
+            },
+            {
+                "title": "Unlocking Us with Bren\u00e9 Brown: Vulnerability and Connection",
+                "description": "Bren\u00e9 Brown discusses embracing vulnerability as a path to feeling more connected and loved, even in tough emotional states.",
+                "url": "https://open.spotify.com/episode/5YoBnSNuLMYx1c5f4WrN1b"
+            },
+            {
+                "title": "Therapy Chat: Overcoming Feelings of Unworthiness",
+                "description": "A therapist-led conversation offering insights into the root causes of feeling unloved and practical steps toward healing.",
+                "url": "https://open.spotify.com/episode/3LPy6UL9T9ZJ1PLpjtJOaj"
+            }
+        ]
+    },
+    "rejected": {
+        "videos": [
+            {
+                "title": "Understanding Rejection: Why It Hurts and How to Heal",
+                "description": "This video delves into the emotional impact of rejection and offers strategies to cope and grow from it.",
+                "url": "https://www.youtube.com/watch?v=KX4aS6qL6Xc"
+            },
+            {
+                "title": "The Science of Rejection and How to Overcome It",
+                "description": "Explore the neuroscience behind rejection and learn practical methods to build resilience and self-acceptance.",
+                "url": "https://www.youtube.com/watch?v=5Gq4-HXo_dI"
+            },
+            {
+                "title": "Dealing with Rejection: 5 Tips to Bounce Back Stronger",
+                "description": "This video provides actionable advice on how to handle rejection positively and transform setbacks into opportunities.",
+                "url": "https://www.youtube.com/watch?v=n0yarZLUzH8"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "The Rejection Therapy Podcast",
+                "description": "This podcast explores personal stories and expert advice on embracing rejection as a tool for growth.",
+                "url": "https://open.spotify.com/episode/7zFQPU5eOuUyIcj7A1dVlz"
+            },
+            {
+                "title": "The Science of Happiness",
+                "description": "Episodes often tackle emotional resilience including how to cope with rejection and build a positive mindset.",
+                "url": "https://open.spotify.com/episode/3E7yWryz2LgqOq1k8lx2XT"
+            },
+            {
+                "title": "The Anxiety Coaches Podcast",
+                "description": "Offering supportive discussions on handling tough emotions like rejection, this podcast helps build coping skills.",
+                "url": "https://open.spotify.com/episode/2x7QwQwQwQwQwQwQwQwQwQ"
+            }
+        ]
+    },
+    "abandoned": {
+        "videos": [
+            {
+                "title": "Exploring Abandoned Places: A Haunting Journey",
+                "description": "This video takes you through eerie abandoned locations, capturing the mood of solitude and forgotten stories.",
+                "url": "https://www.youtube.com/watch?v=xeq3DXXIGQA"
+            },
+            {
+                "title": "The Beauty of Abandoned Architecture",
+                "description": "A visual exploration of decaying buildings, highlighting the melancholic beauty found in abandonment.",
+                "url": "https://www.youtube.com/watch?v=3R-ecWq7ALo"
+            },
+            {
+                "title": "Abandoned Places In The World That Will Blow Your Mind",
+                "description": "Showcasing some of the most stunning and haunting abandoned places globally, this video evokes a deep sense of isolation and reflection.",
+                "url": "https://www.youtube.com/watch?v=JA3YN0btiXU"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "Haunted Places Podcast",
+                "description": "Explores the eerie tales and history behind abandoned and haunted locations, perfectly matching the mood of abandonment.",
+                "url": "https://open.spotify.com/show/5CrjChFzV05xzjYXRvyRNH"
+            },
+            {
+                "title": "Lore",
+                "description": "This podcast dives into dark historical tales, often featuring abandoned places and the mysteries surrounding them.",
+                "url": "https://open.spotify.com/show/4XPl3uEEL9hvqMkoZrzbx5"
+            },
+            {
+                "title": "The NoSleep Podcast",
+                "description": "Offers fictional horror stories including themes of abandonment and isolation, matching the eerie vibe.",
+                "url": "https://open.spotify.com/show/6zonPGP8WYMGG78xXUVGPk"
+            }
+        ]
+    },
+    "confused": {
+        "videos": [
+            {
+                "title": "Understanding Confusion: What Happens in Your Brain?",
+                "description": "This video breaks down the science behind feeling confused, helping you make sense of your emotions and thoughts.",
+                "url": "https://www.youtube.com/watch?v=1RXVJWBYCwQ"
+            },
+            {
+                "title": "How to Clear a Confused Mind Quickly",
+                "description": "Practical tips and exercises to help you regain focus and clarity when you\u2019re feeling overwhelmed and confused.",
+                "url": "https://www.youtube.com/watch?v=QqAC0V1qsqA"
+            },
+            {
+                "title": "Meditation to Help You Overcome Confusion and Mental Fog",
+                "description": "A guided meditation designed to calm your mind and increase mental clarity during confusing moments.",
+                "url": "https://www.youtube.com/watch?v=ZToicYcHIOU"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "The Confident Mind",
+                "description": "This podcast dives into techniques to build mental clarity and reduce confusion in everyday life.",
+                "url": "https://open.spotify.com/show/6g9v5IqknzXj6w2lUY3WUs"
+            },
+            {
+                "title": "Mind Over Mental Fog",
+                "description": "Focuses on overcoming mental fog and confusion with expert advice and listener stories.",
+                "url": "https://open.spotify.com/show/4rmjL0pC91qk3mfFcyUtZC"
+            },
+            {
+                "title": "The Clarity Podcast",
+                "description": "Offers insights and strategies to help you find clarity and direction when feeling lost or confused.",
+                "url": "https://open.spotify.com/show/5KrheRb6qcFA6oJNvtfr02"
+            }
+        ]
+    },
+    "betrayed": {
+        "videos": [
+            {
+                "title": "The Betrayal That Shaped History",
+                "description": "This documentary delves into famous betrayals and their emotional impact, resonating deeply with feelings of betrayal.",
+                "url": "https://www.youtube.com/watch?v=Usz4N4sWSxg"
+            },
+            {
+                "title": "Dealing with Betrayal and Moving On",
+                "description": "An insightful video offering advice on processing feelings of betrayal and finding a path forward.",
+                "url": "https://www.youtube.com/watch?v=sNnKQzFBcMw"
+            },
+            {
+                "title": "The Psychology of Betrayal",
+                "description": "Explores the mental and emotional effects of betrayal, helping viewers understand their feelings.",
+                "url": "https://www.youtube.com/watch?v=KcmzSk5zgqE"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "Betrayal Trauma Recovery Podcast",
+                "description": "Focused on healing after betrayal, this podcast offers guidance and shared experiences to help listeners move forward.",
+                "url": "https://open.spotify.com/show/4nV7y6K0oXyMsj6vFzZX1Y"
+            },
+            {
+                "title": "The Trust Issues Podcast",
+                "description": "Explores themes of betrayal and trust, providing insights that resonate with those feeling betrayed.",
+                "url": "https://open.spotify.com/show/2Wy8vMguKb6Fo90rLswf0E"
+            },
+            {
+                "title": "Heartbreak and Healing",
+                "description": "A supportive podcast navigating the emotional aftermath of betrayal and relationship pain.",
+                "url": "https://open.spotify.com/show/6ePN7lR4Zm4m0CTX8qpKFa"
+            }
+        ]
+    },
+    "powerless": {
+        "videos": [
+            {
+                "title": "Feeling Powerless? Here's How to Regain Control",
+                "description": "This video guides you through practical steps to feel empowered when life feels overwhelming and uncontrollable.",
+                "url": "https://www.youtube.com/watch?v=7sxpKhIbr0E"
+            },
+            {
+                "title": "How to Overcome Feeling Powerless and Take Back Your Life",
+                "description": "A motivational talk that helps you understand the root of powerlessness and how to reclaim your inner strength.",
+                "url": "https://www.youtube.com/watch?v=YX2pGMpYh-I"
+            },
+            {
+                "title": "The Psychology of Feeling Powerless and How to Fight It",
+                "description": "This informative video explores why we feel powerless and offers actionable advice to change that mindset.",
+                "url": "https://www.youtube.com/watch?v=yi0n5YxHFWw"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "Unlocking Your Inner Power",
+                "description": "This episode offers insight into overcoming feelings of powerlessness and embracing personal empowerment.",
+                "url": "https://open.spotify.com/episode/7xV2T8h8RibRFGdZxnzOUE"
+            },
+            {
+                "title": "The Empowerment Podcast",
+                "description": "Focused on helping listeners find their voice and regain control in challenging times, perfect for moments of feeling powerless.",
+                "url": "https://open.spotify.com/episode/3aW98nm7Ax5M26gdygCqTZ"
+            },
+            {
+                "title": "Mental Strength and You",
+                "description": "This podcast provides practical tips to build mental resilience and overcome the sense of powerlessness.",
+                "url": "https://open.spotify.com/episode/5p5ikD6plQGZkVbj1ZhK0h"
+            }
+        ]
+    },
+    "apathetic": {
+        "videos": [
+            {
+                "title": "Why Do We Feel Apathetic?",
+                "description": "This video explores the reasons behind apathy and helps viewers understand their emotional detachment in a relatable way.",
+                "url": "https://www.youtube.com/watch?v=ScQhxEPP9_Q"
+            },
+            {
+                "title": "5 Ways to Overcome Apathy and Find Motivation",
+                "description": "A gentle guide offering small steps to move past apathy without pressure, ideal for when you feel indifferent.",
+                "url": "https://www.youtube.com/watch?v=92Ifn55hzr8"
+            },
+            {
+                "title": "The Science of Apathy: Understanding Emotional Numbness",
+                "description": "An insightful explanation on the brain\u2019s role in apathy, providing context that resonates when feeling disconnected.",
+                "url": "https://www.youtube.com/watch?v=EgLcR03YEFY"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "The Apathy Project",
+                "description": "This podcast discusses apathy from psychological and social angles, helping listeners feel understood and less alone.",
+                "url": "https://open.spotify.com/show/4rOoJ6Egrf8K2IrywzwOMk"
+            },
+            {
+                "title": "Motivation Monday",
+                "description": "Gentle conversations aimed at sparking small motivation bursts without overwhelming listeners feeling apathetic.",
+                "url": "https://open.spotify.com/show/5XpFM8RzsD6ROI48m7IatB"
+            },
+            {
+                "title": "Mindfulness Moments",
+                "description": "Short episodes focused on mindfulness and emotional awareness, offering subtle support during apathetic phases.",
+                "url": "https://open.spotify.com/show/1vZXV2eQYXB8KmTttS3n74"
+            }
+        ]
+    },
+    "heartbroken": {
+        "videos": [
+            {
+                "title": "Adele - Someone Like You (Official Music Video)",
+                "description": "A soulful ballad capturing the pain of lost love, perfect for embracing and reflecting on heartbreak.",
+                "url": "https://www.youtube.com/watch?v=hLQl3WQQoQ0"
+            },
+            {
+                "title": "Taylor Swift - All Too Well (10 Minute Version) (Official Music Video)",
+                "description": "This extended music video vividly portrays the raw emotions of heartbreak and memories of a past relationship.",
+                "url": "https://www.youtube.com/watch?v=tollGa3S0o8"
+            },
+            {
+                "title": "Sam Smith - Too Good at Goodbyes (Official Video)",
+                "description": "Expressing vulnerability and sadness, this video resonates deeply with the feeling of being heartbroken.",
+                "url": "https://www.youtube.com/watch?v=J_ub7 Etch4"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "The Heart",
+                "description": "Personal stories about love and heartbreak that provide comfort and understanding for those healing.",
+                "url": "https://open.spotify.com/show/3PsYQK8dKz7MvDC6a7ODIV"
+            },
+            {
+                "title": "Where Should We Begin? with Esther Perel",
+                "description": "Explores real couples\u2019 stories and the complexities of relationships, offering insight during heartbreak.",
+                "url": "https://open.spotify.com/show/2Sggqow6JzUYSH8x7j5sp"
+            },
+            {
+                "title": "Terrible, Thanks for Asking",
+                "description": "Candid conversations about difficult emotions and experiences, including heartbreak and loss.",
+                "url": "https://open.spotify.com/show/4iWIK6mQd3qkKY5i3Zw5np"
+            }
+        ]
+    },
+    "disconnected": {
+        "videos": [
+            {
+                "title": "The Art of Being Alone",
+                "description": "This video explores the beauty and strength found in solitude, resonating with feelings of disconnection and the journey toward self-understanding.",
+                "url": "https://www.youtube.com/watch?v=Z1ZB98zNvTY"
+            },
+            {
+                "title": "Why We Feel Lonely Even When Surrounded by People",
+                "description": "An insightful explanation of modern loneliness that helps make sense of feeling disconnected, even in busy environments.",
+                "url": "https://www.youtube.com/watch?v=2H4D2WpTEpU"
+            },
+            {
+                "title": "How To Deal With Feeling Disconnected From Others",
+                "description": "Practical advice on reconnecting with people and yourself when you\u2019re feeling isolated and distant.",
+                "url": "https://www.youtube.com/watch?v=6a6ct_ne8vE"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "The Lonely Hour",
+                "description": "This podcast delves into personal stories of loneliness and disconnection, helping listeners feel understood and less alone.",
+                "url": "https://open.spotify.com/show/2nRcM1WcMEGchmR0WVX7N5"
+            },
+            {
+                "title": "On Being with Krista Tippett",
+                "description": "A thoughtful exploration of what it means to be human, perfect for reflecting on feelings of isolation and connection.",
+                "url": "https://open.spotify.com/show/7zAxpmwVjF9v7kbsqjXd05"
+            },
+            {
+                "title": "The Science of Happiness",
+                "description": "Episodes offer research-backed strategies to build social connections and combat feelings of disconnection.",
+                "url": "https://open.spotify.com/show/5l71P6Bm6iy1QIecGk7UJp"
+            }
+        ]
+    },
+    "vulnerable": {
+        "videos": [
+            {
+                "title": "Vulnerability Is Strength | Bren\u00e9 Brown on Empathy",
+                "description": "Bren\u00e9 Brown explores how embracing vulnerability can foster connection and courage, making this video perfect when feeling vulnerable.",
+                "url": "https://www.youtube.com/watch?v=iCvmsMzlF7o"
+            },
+            {
+                "title": "The Power of Vulnerability | Bren\u00e9 Brown",
+                "description": "A profound talk that encourages embracing imperfections and emotional honesty, which resonates deeply when feeling vulnerable.",
+                "url": "https://www.youtube.com/watch?v=psN1DORYYV0"
+            },
+            {
+                "title": "How Vulnerability Can Make Your Life Better",
+                "description": "This video explains the positive impact of vulnerability on relationships and personal growth, providing comfort in sensitive moments.",
+                "url": "https://www.youtube.com/watch?v=8S0FDjFBj8o"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "Unlocking Us with Bren\u00e9 Brown",
+                "description": "Bren\u00e9 Brown dives deep into vulnerability and how it shapes human connection, ideal for moments when you feel open and sensitive.",
+                "url": "https://open.spotify.com/show/4lVjzqHcmZPjvzqgisrp2q"
+            },
+            {
+                "title": "The Vulnerability Podcast",
+                "description": "This podcast shares real stories and strategies about embracing vulnerability as a path to growth and authenticity.",
+                "url": "https://open.spotify.com/show/1ujb9Yt4YueAu8yZnCrhcF"
+            },
+            {
+                "title": "Good Life Project",
+                "description": "Featuring conversations about emotional courage and vulnerability, this podcast inspires listeners to live more authentic lives.",
+                "url": "https://open.spotify.com/show/5bIWmhGIwFzxMEZ2KrgD9F"
+            }
+        ]
+    },
+    "regretful": {
+        "videos": [
+            {
+                "title": "How to Overcome Regret and Move Forward",
+                "description": "This video gently explores ways to process regret and find hope for the future, helping you transform sorrow into strength.",
+                "url": "https://www.youtube.com/watch?v=FvJoFdpTF9o"
+            },
+            {
+                "title": "The Science of Regret: Why We Feel It & How To Manage It",
+                "description": "A thoughtful explanation of the psychology behind regret, offering insights to help you cope with difficult emotions.",
+                "url": "https://www.youtube.com/watch?v=Ir6Vo26bY-g"
+            },
+            {
+                "title": "Letting Go of Regret | Motivational Video",
+                "description": "This motivational video encourages self-forgiveness and growth, perfect for moments when you feel weighed down by past choices.",
+                "url": "https://www.youtube.com/watch?v=Ceyz7NxqNa0"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "The Science of Happiness",
+                "description": "Explores emotional challenges like regret and provides research-backed ways to cultivate well-being and self-compassion.",
+                "url": "https://open.spotify.com/show/3oQ9N8CFN5kHpu4pLN9Yuy"
+            },
+            {
+                "title": "Unlocking Us with Bren\u00e9 Brown",
+                "description": "Bren\u00e9 Brown's conversations about vulnerability and forgiveness resonate deeply with feelings of regret and healing.",
+                "url": "https://open.spotify.com/show/4FZ9bPeYmISkd5f5qQ6DQi"
+            },
+            {
+                "title": "Therapy Chat",
+                "description": "Insights from mental health professionals that help you understand and work through difficult emotions such as regret.",
+                "url": "https://open.spotify.com/show/3aKMg7AzxujEMBNPrQArUT"
+            }
+        ]
+    },
+    "irritable": {
+        "videos": [
+            {
+                "title": "How to Calm Down When You\u2019re Feeling Irritable",
+                "description": "This video offers practical techniques to help you manage irritability and regain emotional balance quickly.",
+                "url": "https://www.youtube.com/watch?v=HqJXLRBd9s8"
+            },
+            {
+                "title": "Why Am I So Irritable? | Understanding and Managing Irritability",
+                "description": "An informative video that explores the causes of irritability and provides tips to soothe and reduce it.",
+                "url": "https://www.youtube.com/watch?v=Qf_9tJziIwM"
+            },
+            {
+                "title": "5-Minute Mindfulness Meditation to Relax and Let Go of Irritability",
+                "description": "A short guided meditation designed to calm the mind and ease feelings of irritability.",
+                "url": "https://www.youtube.com/watch?v=1vx8iUvfyCY"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "The Calm Collective",
+                "description": "This podcast explores emotional health and provides soothing conversations perfect for calming irritability.",
+                "url": "https://open.spotify.com/show/2Wy97yj0ALpvxclBxqClyN"
+            },
+            {
+                "title": "Meditative Story",
+                "description": "Combining stories with meditation prompts, this podcast helps ease irritability and find peace.",
+                "url": "https://open.spotify.com/show/1G0dp0QpEE53WDQKogqUJ6"
+            },
+            {
+                "title": "On Being with Krista Tippett",
+                "description": "Deep, reflective discussions that encourage understanding and patience when feeling irritable.",
+                "url": "https://open.spotify.com/show/3dz5PgEMtQtiqNj3Rm46sM"
+            }
+        ]
+    },
+    "resentful": {
+        "videos": [
+            {
+                "title": "How to Let Go of Resentment and Forgive",
+                "description": "This video offers practical advice on releasing feelings of resentment through forgiveness and understanding, helping you find peace.",
+                "url": "https://www.youtube.com/watch?v=7yZDudkkSqk"
+            },
+            {
+                "title": "Dealing With Resentment and Bitterness",
+                "description": "An insightful discussion on identifying and coping with resentment, this video sheds light on overcoming negative emotions.",
+                "url": "https://www.youtube.com/watch?v=4jlzEobvLZI"
+            },
+            {
+                "title": "How to Stop Being Bitter and Resentful",
+                "description": "This video provides step-by-step guidance on transforming bitterness into acceptance and emotional freedom.",
+                "url": "https://www.youtube.com/watch?v=8IKxd8xz_NM"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "Unlocking Forgiveness: Healing From Resentment",
+                "description": "This podcast episode dives into the process of forgiveness and how to heal from deep-seated resentment.",
+                "url": "https://open.spotify.com/episode/6J6VwAHS4qYkF3IjbaRjfG"
+            },
+            {
+                "title": "The Resentment Detox",
+                "description": "Explore effective methods for detoxifying your mind from resentment and regaining emotional balance in this episode.",
+                "url": "https://open.spotify.com/episode/4kWHTLI0Xx9c3MHWpHOvn1"
+            },
+            {
+                "title": "Healing Emotional Wounds: Overcoming Resentment",
+                "description": "A heartfelt discussion about the roots of resentment and strategies to overcome it for personal growth.",
+                "url": "https://open.spotify.com/episode/1FGqYCtQOCGvRo5QRGzx2f"
+            }
+        ]
+    },
+    "emotional pain": {
+        "videos": [
+            {
+                "title": "Coping with Emotional Pain: How to Heal Yourself",
+                "description": "This video provides compassionate guidance on understanding and managing emotional pain, helping you navigate difficult feelings.",
+                "url": "https://www.youtube.com/watch?v=9NpfQmQLeuo"
+            },
+            {
+                "title": "Why We Hurt: The Science of Emotional Pain",
+                "description": "Explores the neuroscience behind emotional pain and offers insights that can help you make sense of your feelings.",
+                "url": "https://www.youtube.com/watch?v=6F8SqYdlUP0"
+            },
+            {
+                "title": "How to Heal from Emotional Pain | Mel Robbins",
+                "description": "Mel Robbins shares empowering strategies to face and heal emotional wounds, perfect for those seeking hope and motivation.",
+                "url": "https://www.youtube.com/watch?v=XuyP_Gp8694"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "The Healing Pain Podcast",
+                "description": "This podcast explores the journey through emotional pain and offers tools for healing and resilience.",
+                "url": "https://open.spotify.com/show/4nVRT9SQquZn5sNfdSEQ9Q"
+            },
+            {
+                "title": "The Trauma Therapist Podcast",
+                "description": "Focusing on emotional trauma and recovery, this podcast offers insightful interviews and compassionate advice.",
+                "url": "https://open.spotify.com/show/2EoElMQhqI1tT3jbw6TxUo"
+            },
+            {
+                "title": "Emotionally Sound",
+                "description": "Discusses emotional wellness and healing with practical tips, perfect for those struggling with emotional pain.",
+                "url": "https://open.spotify.com/show/1mSgl\u039bKdGe4gPBhY1Z1Rhx"
+            }
+        ]
+    },
+    "mental fatigue": {
+        "videos": [
+            {
+                "title": "Guided Meditation for Mental Fatigue and Stress Relief",
+                "description": "This calming meditation helps soothe tired minds and restore mental clarity, ideal for when you're feeling mentally exhausted.",
+                "url": "https://www.youtube.com/watch?v=ZToicYcHIOU"
+            },
+            {
+                "title": "How to Overcome Mental Fatigue and Reclaim Your Energy",
+                "description": "A straightforward talk offering practical tips to combat mental exhaustion and boost cognitive stamina.",
+                "url": "https://www.youtube.com/watch?v=6MhU2ZDH7AU"
+            },
+            {
+                "title": "The Science of Mental Fatigue and How to Reset Your Brain",
+                "description": "This video explains what causes mental fatigue and provides evidence-based strategies to refresh your mind.",
+                "url": "https://www.youtube.com/watch?v=O5Yxh3ggLCM"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "The Feeling Good Podcast",
+                "description": "Insights and practices to reset your mental energy and cultivate positivity, helping you overcome mental fatigue.",
+                "url": "https://open.spotify.com/show/3Wxqed1tuX1YuCrjxM5StT"
+            },
+            {
+                "title": "The Calm Collective",
+                "description": "Episodes focusing on mindfulness and mental rest, great for listeners experiencing burnout and mental exhaustion.",
+                "url": "https://open.spotify.com/show/5NfT3IHejZMqQstLRkifuS"
+            },
+            {
+                "title": "Therapy Chat",
+                "description": "In-depth discussions on mental health topics, including strategies for managing mental fatigue and stress.",
+                "url": "https://open.spotify.com/show/2G9R64MXKdlRVEMKtl3dpJ"
+            }
+        ]
+    },
+    "dread": {
+        "videos": [
+            {
+                "title": "Understanding the Psychology of Fear and Dread",
+                "description": "This video dives into the science behind fear and dread, helping you make sense of these intense feelings.",
+                "url": "https://www.youtube.com/watch?v=Z30F3Aeqv00"
+            },
+            {
+                "title": "How to Manage Feelings of Dread and Uncertainty",
+                "description": "Offers practical strategies to cope with the heavy feeling of dread and regain a sense of control.",
+                "url": "https://www.youtube.com/watch?v=wpC2oNvUmHU"
+            },
+            {
+                "title": "Overcoming Fear and Anxiety: Techniques That Work",
+                "description": "Explores effective techniques to face fear and dread, providing relief through actionable steps.",
+                "url": "https://www.youtube.com/watch?v=ZAM0C6XNw5U"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "The Anxiety Guy Podcast",
+                "description": "Offers empathetic and practical advice for dealing with dread and the anxiety that accompanies it.",
+                "url": "https://open.spotify.com/show/4XplrXikvseagHh5Cv9axi"
+            },
+            {
+                "title": "Ten Percent Happier with Dan Harris",
+                "description": "Explores mindfulness and meditation techniques that can help alleviate feelings of dread.",
+                "url": "https://open.spotify.com/show/2XMYH9hjG948C1eK3zK6an"
+            },
+            {
+                "title": "The Calm Collective",
+                "description": "This podcast thoughtfully discusses difficult emotions like dread and how to find peace within them.",
+                "url": "https://open.spotify.com/show/5PB1IUy2F3vZ8hVNsPyzCM"
+            }
+        ]
+    },
+    "despair": {
+        "videos": [
+            {
+                "title": "The Science of Sadness and How to Cope",
+                "description": "This video explains the biology of sadness and offers practical approaches to understand and manage feelings of despair.",
+                "url": "https://www.youtube.com/watch?v=HZ8MoR6Ezmk"
+            },
+            {
+                "title": "A Letter to My Younger Self - Healing from Despair",
+                "description": "A heartfelt message encouraging self-compassion and hope during difficult times.",
+                "url": "https://www.youtube.com/watch?v=LEZjexTIth0"
+            },
+            {
+                "title": "Overcoming Dark Nights of the Soul",
+                "description": "Insights and advice for navigating intense periods of despair and finding light again.",
+                "url": "https://www.youtube.com/watch?v=gsH9Ul6hm8c"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "The Hilarious World of Depression",
+                "description": "Through humor and honest conversations, this podcast explores depression and despair in a relatable way.",
+                "url": "https://open.spotify.com/show/4o1P4toMYEMjKaJZKsHIMV"
+            },
+            {
+                "title": "Mentally Yours",
+                "description": "This podcast discusses mental health challenges including despair, providing insight and support.",
+                "url": "https://open.spotify.com/show/6XI5T9FQYrguJmzSflAmUy"
+            },
+            {
+                "title": "Burnout and Breakdown",
+                "description": "Real stories about mental health struggles offer listeners understanding and hope during tough times.",
+                "url": "https://open.spotify.com/show/6ZC6M6Qk3Dc8UZtJB6F6uH"
+            }
+        ]
+    },
+    "detachment": {
+        "videos": [
+            {
+                "title": "The Art of Letting Go | Eckhart Tolle",
+                "description": "This video explores the concept of detachment as a path to inner peace, perfectly matching a mood of emotional release and calm.",
+                "url": "https://www.youtube.com/watch?v=2tmO0g9FWk8"
+            },
+            {
+                "title": "Detachment - Sadhguru",
+                "description": "Sadhguru explains how detachment can free you from emotional suffering, aligning well with the reflective and serene mood of detachment.",
+                "url": "https://www.youtube.com/watch?v=7pLc6xAYkuE"
+            },
+            {
+                "title": "The Power of Detachment | Jay Shetty",
+                "description": "Jay Shetty discusses how practicing detachment helps in maintaining clarity and mental balance, ideal for those seeking calm and perspective.",
+                "url": "https://www.youtube.com/watch?v=RQIae1r5aBQ"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "On Being with Krista Tippett: Letting Go",
+                "description": "This episode explores the theme of letting go and detachment through deep, thoughtful conversations.",
+                "url": "https://open.spotify.com/episode/3f4dyYoPBvFUJsJUxa87f3"
+            },
+            {
+                "title": "The Minimalists Podcast: Learning Detachment",
+                "description": "A discussion on how detachment from materialism and expectations can lead to a freer and more meaningful life.",
+                "url": "https://open.spotify.com/episode/5MfSHWyx4Twb7dkcLGF14M"
+            },
+            {
+                "title": "The Calm Collective: Embracing Detachment",
+                "description": "An episode that gently guides listeners through embracing detachment to find peace in uncertainty.",
+                "url": "https://open.spotify.com/episode/1xJAxly8Vys5USj35MruzX"
+            }
+        ]
+    },
+    "dissociation": {
+        "videos": [
+            {
+                "title": "Understanding Dissociation: What Happens in The Mind",
+                "description": "This video explains the mechanisms of dissociation in an accessible way, helping viewers make sense of their experience.",
+                "url": "https://www.youtube.com/watch?v=Fq1EKrG2jcM"
+            },
+            {
+                "title": "Grounding Techniques to Manage Dissociation",
+                "description": "A practical guide demonstrating grounding exercises designed to bring awareness back to the present moment during dissociative episodes.",
+                "url": "https://www.youtube.com/watch?v=G7mhP5uqzd4"
+            },
+            {
+                "title": "How to Cope with Dissociation \u2013 Mental Health Tips",
+                "description": "Offers useful coping strategies and insights to better understand and manage dissociation symptoms.",
+                "url": "https://www.youtube.com/watch?v=pZEd9X2XBXs"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "The Dissociation Podcast",
+                "description": "This podcast discusses dissociation in depth, featuring expert interviews and personal stories that foster understanding and healing.",
+                "url": "https://open.spotify.com/show/5XhbgXpz6amuZFYTTmQZPh"
+            },
+            {
+                "title": "Trauma Therapist Podcast",
+                "description": "Focused on trauma and recovery, this show offers valuable insights and strategies for coping with dissociative experiences.",
+                "url": "https://open.spotify.com/show/3OxjlXp2knHG1IRxHjIUcd"
+            },
+            {
+                "title": "The Body Keeps The Score Podcast",
+                "description": "Explores trauma\u2019s impact on the mind and body, offering episodes relevant to understanding dissociation.",
+                "url": "https://open.spotify.com/show/2Ae95L7b8L0VPM8sWHvYn8"
+            }
+        ]
+    },
+    "emotional numbness": {
+        "videos": [
+            {
+                "title": "Understanding Emotional Numbness: Why You Feel Detached",
+                "description": "This video explores the causes of emotional numbness and offers insight into why you might feel disconnected from your feelings, helping you recognize and address it.",
+                "url": "https://www.youtube.com/watch?v=QVeCXRPkuF0"
+            },
+            {
+                "title": "How to Cope with Emotional Numbness and Disconnection",
+                "description": "Offering practical strategies, this video guides you through steps to gradually reconnect with your emotions during times of numbness.",
+                "url": "https://www.youtube.com/watch?v=PnUKu7cQJng"
+            },
+            {
+                "title": "Emotional Numbness: What It Is and How to Feel Again",
+                "description": "A clear explanation of emotional numbness paired with advice on how to safely open up to your emotions once more.",
+                "url": "https://www.youtube.com/watch?v=bJDLWgk_vvc"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "The Trauma Therapist Podcast",
+                "description": "Focused on healing from trauma, this podcast offers episodes that help understand and work through emotional numbness caused by past wounds.",
+                "url": "https://open.spotify.com/show/1yxSLGMDHlW21z6p5wQsrC"
+            },
+            {
+                "title": "Therapy Chat",
+                "description": "A podcast that discusses therapy techniques and emotional processing, providing support for those experiencing emotional numbness.",
+                "url": "https://open.spotify.com/show/3zZ9coXdN6VXmHmTpba7Xt"
+            },
+            {
+                "title": "Mental Illness Happy Hour",
+                "description": "This show features honest conversations about mental health, including episodes addressing emotional numbness and how to cope.",
+                "url": "https://open.spotify.com/show/3gSbq4BQ5JWZQh9EnbUbL7"
+            }
+        ]
+    },
+    "self-hatred": {
+        "videos": [
+            {
+                "title": "Overcoming Self-Hatred: A Journey to Self-Acceptance",
+                "description": "This video guides viewers through understanding and healing self-hatred by embracing self-compassion and acceptance.",
+                "url": "https://www.youtube.com/watch?v=Lp7E973zozc"
+            },
+            {
+                "title": "Why We Hate Ourselves and How to Stop | TEDx Talk",
+                "description": "A powerful talk that explores the roots of self-hatred and offers insights on breaking free from negative self-perceptions.",
+                "url": "https://www.youtube.com/watch?v=I3T0szgpo9A"
+            },
+            {
+                "title": "How to Deal with Self-Hatred and Build Self-Esteem",
+                "description": "This video provides practical strategies to combat self-hatred and develop a more positive self-image.",
+                "url": "https://www.youtube.com/watch?v=7FPOO0X9m6c"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "The Self Work Podcast",
+                "description": "This podcast explores emotional healing and self-growth, helping listeners understand and overcome self-hatred.",
+                "url": "https://open.spotify.com/episode/4RFMy0kHe4SIpeO2bRjIGX"
+            },
+            {
+                "title": "Mental Health Foundation Podcast",
+                "description": "Focused on mental health topics including self-esteem and self-compassion, this podcast supports healing from self-hatred.",
+                "url": "https://open.spotify.com/episode/1CvrxXnUgNDPCqStpyJ8Xm"
+            },
+            {
+                "title": "Therapy Chat",
+                "description": "Featuring deep dives into therapy topics, this podcast helps listeners address issues like self-hatred and build resilience.",
+                "url": "https://open.spotify.com/episode/5f6hWTT76ckbhejCh6X0GV"
+            }
+        ]
+    },
+    "suicidal thoughts": {
+        "videos": [
+            {
+                "title": "You Are Not Alone: Understanding Suicidal Thoughts",
+                "description": "This compassionate video helps viewers feel understood and provides hope by sharing ways to cope with suicidal thoughts.",
+                "url": "https://www.youtube.com/watch?v=2AXQr0tj7hs"
+            },
+            {
+                "title": "How to Help Someone With Suicidal Thoughts",
+                "description": "This video offers practical advice on how to support yourself or a loved one experiencing suicidal thoughts in a safe and caring way.",
+                "url": "https://www.youtube.com/watch?v=2Vg3W0GwKhA"
+            },
+            {
+                "title": "Coping with Suicidal Thoughts: What You Can Do",
+                "description": "Clear and gentle guidance on ways to manage difficult feelings and find support when experiencing suicidal thoughts.",
+                "url": "https://www.youtube.com/watch?v=pUkOGWqpTFE"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "The Hope Line Podcast",
+                "description": "This podcast offers stories and resources aimed at providing hope and help to those struggling with suicidal thoughts.",
+                "url": "https://open.spotify.com/show/4fddyvQG5kJlLyOksODJ6b"
+            },
+            {
+                "title": "The Suicide Prevention Podcast",
+                "description": "Experts discuss mental health topics with sensitivity, offering insights and tools to manage suicidal ideation.",
+                "url": "https://open.spotify.com/show/25wb8lWYB1fTnDZRHyB8MO"
+            },
+            {
+                "title": "Healing from Suicide Loss",
+                "description": "Supportive conversations for those affected by suicide, focusing on healing and understanding difficult emotions.",
+                "url": "https://open.spotify.com/show/6ynSHqDwxXkOxHsQOGVZoG"
+            }
+        ]
+    },
+    "desire to disappear": {
+        "videos": [
+            {
+                "title": "The Art of Letting Go",
+                "description": "This video explores the emotional journey of wanting to disappear and finding peace through acceptance, resonating deeply with feelings of withdrawal.",
+                "url": "https://www.youtube.com/watch?v=Z3NbYLB7hEw"
+            },
+            {
+                "title": "I Want to Disappear | Short Film",
+                "description": "A poignant short film capturing the desire to vanish from overwhelming circumstances, offering a relatable and cathartic experience.",
+                "url": "https://www.youtube.com/watch?v=Fcf6wHvct3g"
+            },
+            {
+                "title": "Mental Health: Coping With The Desire To Disappear",
+                "description": "An insightful discussion on dealing with feelings of wanting to escape reality, providing comfort and understanding.",
+                "url": "https://www.youtube.com/watch?v=IzdzhrCyAXQ"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "The Struggle Is Real",
+                "description": "This podcast shares raw personal stories about feeling lost and wanting to disappear, creating a sense of connection and hope.",
+                "url": "https://open.spotify.com/show/4e4NcJ5fqUTkXwRZ1yDWbx"
+            },
+            {
+                "title": "Mental Health Minute",
+                "description": "Short episodes addressing intense emotional struggles, perfect for moments when you feel overwhelmed and need reassurance.",
+                "url": "https://open.spotify.com/show/2m9vFgwjqdJbwW9P21MBBY"
+            },
+            {
+                "title": "Feeling Lost and Found",
+                "description": "A compassionate podcast helping listeners navigate feelings of wanting to disappear and find their way back to themselves.",
+                "url": "https://open.spotify.com/show/3bJt56e0Saaf9rbP2WqDzW"
+            }
+        ]
+    },
+    "feeling like a burden": {
+        "videos": [
+            {
+                "title": "You Are Not A Burden | Motivational Video",
+                "description": "This video provides reassurance and uplifting messages to remind you of your worth, perfect for moments when you feel like a burden.",
+                "url": "https://www.youtube.com/watch?v=9r4CPLjdMgA"
+            },
+            {
+                "title": "The Burden of Insecurity | Kati Morton",
+                "description": "Licensed therapist Kati Morton explains how feelings of being a burden can stem from insecurity and offers helpful coping strategies.",
+                "url": "https://www.youtube.com/watch?v=Vdh6rPQNHzA"
+            },
+            {
+                "title": "Why You Are NOT a Burden to Others",
+                "description": "This empathetic talk encourages self-compassion and challenges negative thoughts about being a burden, helping you to feel less alone.",
+                "url": "https://www.youtube.com/watch?v=E9PjIhK6TDE"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "The Anxiety Coaches Podcast",
+                "description": "This podcast offers supportive conversations addressing feelings of worthlessness and burden, with strategies to overcome these emotions.",
+                "url": "https://open.spotify.com/show/4rOoJ6Egrf8K2IrywzwOMk"
+            },
+            {
+                "title": "The Mental Illness Happy Hour",
+                "description": "Hosts share honest stories about mental health struggles, making it relatable for those who feel like a burden to others.",
+                "url": "https://open.spotify.com/show/6r4A2382MLnSqyyRcaBDMQ"
+            },
+            {
+                "title": "Therapy Chat",
+                "description": "Explores topics of self-worth and emotional struggles, helping you understand and cope with feelings of being a burden.",
+                "url": "https://open.spotify.com/show/1XxWBtpl8ggQ6w5hW671lL"
+            }
+        ]
+    },
+    "thoughts of self-harm": {
+        "videos": [
+            {
+                "title": "Coping with Self-Harm: Advice and Support",
+                "description": "This video offers compassionate guidance and practical strategies for dealing with thoughts of self-harm, helping you find healthier ways to cope.",
+                "url": "https://www.youtube.com/watch?v=DZiG2-xOJP4"
+            },
+            {
+                "title": "Why Do People Self-Harm? | Understanding & Healing",
+                "description": "An informative video that explains the reasons behind self-harm and suggests positive steps toward healing and seeking help.",
+                "url": "https://www.youtube.com/watch?v=3RLRRWY2YxM"
+            },
+            {
+                "title": "How to Stop Self-Harming",
+                "description": "Provides practical tips and emotional support for those struggling with urges to self-harm, encouraging recovery and self-care.",
+                "url": "https://www.youtube.com/watch?v=HaFgwUNZvO4"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "The Hilarious World of Depression",
+                "description": "This podcast shares honest conversations about mental health struggles including self-harm, balancing vulnerability with humor to help listeners feel less alone.",
+                "url": "https://open.spotify.com/show/4y7gUpQtqvYFoOfUb4UMS4"
+            },
+            {
+                "title": "Mental Illness Happy Hour",
+                "description": "An open and supportive podcast exploring topics like self-harm, providing listeners with empathy and insights from lived experiences.",
+                "url": "https://open.spotify.com/show/1Z17w17EdPnhN42VyA0GsQ"
+            },
+            {
+                "title": "The Struggle Bus",
+                "description": "Hosts provide compassionate advice and support on mental health challenges including self-harm, fostering a sense of community and resilience.",
+                "url": "https://open.spotify.com/show/5u8VaYQoYovXZ2qrb0JuN3"
+            }
+        ]
+    },
+    "hopeless about future": {
+        "videos": [
+            {
+                "title": "Finding Hope When You Feel Hopeless",
+                "description": "This video offers gentle encouragement and practical steps to regain hope during uncertain times.",
+                "url": "https://www.youtube.com/watch?v=6AsOVGnUqdo"
+            },
+            {
+                "title": "How to Cope When You Feel Hopeless About the Future",
+                "description": "A compassionate talk that helps you understand your feelings and find small ways to move forward.",
+                "url": "https://www.youtube.com/watch?v=ZvMq0Rm22TU"
+            },
+            {
+                "title": "The Power of Hope: A Motivational Speech",
+                "description": "An inspiring speech that reminds us of the strength found in hope even during difficult moments.",
+                "url": "https://www.youtube.com/watch?v=cQXTq1jI7aw"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "Hope and Resilience Podcast",
+                "description": "Explores stories of overcoming despair and finding strength, offering comfort for those feeling hopeless about the future.",
+                "url": "https://open.spotify.com/show/0N1VojkInIZj8kYzt9WJXs"
+            },
+            {
+                "title": "The Science of Happiness",
+                "description": "This podcast provides research-backed strategies to rebuild hope and foster optimism during tough times.",
+                "url": "https://open.spotify.com/show/4XPl3uEEL9hvqMkoZrzbx5"
+            },
+            {
+                "title": "On Being with Krista Tippett",
+                "description": "Thoughtful conversations about meaning, hope, and the human spirit to help shift perspective on the future.",
+                "url": "https://open.spotify.com/show/54N6l59fkCdaVx6WqCeIdz"
+            }
+        ]
+    },
+    "writing goodbye notes": {
+        "videos": [
+            {
+                "title": "How to Write a Heartfelt Goodbye Letter",
+                "description": "This video guides you through expressing your feelings sincerely in a goodbye note, making the farewell meaningful and compassionate.",
+                "url": "https://www.youtube.com/watch?v=YXFS6eUEu3c"
+            },
+            {
+                "title": "Saying Goodbye: Tips for Writing Farewell Messages",
+                "description": "Learn simple tips to craft goodbye notes that convey appreciation and hope, perfect for any goodbye situation.",
+                "url": "https://www.youtube.com/watch?v=KG5JxvIqL8A"
+            },
+            {
+                "title": "Writing Goodbye Letters with Emotion and Grace",
+                "description": "This video demonstrates how to express emotions authentically while keeping your goodbye note thoughtful and respectful.",
+                "url": "https://www.youtube.com/watch?v=uV9QO2Autn0"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "The Art of Saying Goodbye",
+                "description": "A podcast episode exploring the emotional complexities of farewells and how to communicate them effectively through writing.",
+                "url": "https://open.spotify.com/episode/5oRQJs7TIPLsU9QZre9IuX"
+            },
+            {
+                "title": "Writing to Heal",
+                "description": "This episode discusses how writing goodbye notes can help process emotions and foster healing during transitions.",
+                "url": "https://open.spotify.com/episode/1KYQaoselqMMm3ZKVt3kUa"
+            },
+            {
+                "title": "Goodbye Letters and Closure",
+                "description": "Explore stories and tips on crafting goodbye notes that bring peace and understanding to both sender and recipient.",
+                "url": "https://open.spotify.com/episode/3V3kKf3Ez5YOi4NlYqZcXT"
+            }
+        ]
+    },
+    "emotional shutdown": {
+        "videos": [
+            {
+                "title": "Understanding Emotional Shutdown: What It Is and How to Cope",
+                "description": "This video breaks down emotional shutdown and provides insights on recognizing and managing it effectively.",
+                "url": "https://www.youtube.com/watch?v=7qf1qTnFixc"
+            },
+            {
+                "title": "How to Deal With Emotional Numbness and Shutdown",
+                "description": "A helpful guide offering practical tips to reconnect with your emotions after experiencing shutdown.",
+                "url": "https://www.youtube.com/watch?v=JIxYfzUrmFE"
+            },
+            {
+                "title": "Why We Shut Down Emotionally and How to Heal",
+                "description": "Explores the reasons behind emotional shutdown and techniques to begin healing and opening up again.",
+                "url": "https://www.youtube.com/watch?v=xDQJdvLguY4"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "The Trauma Therapist Podcast",
+                "description": "This podcast provides expert interviews focusing on trauma recovery, including dealing with emotional shutdown.",
+                "url": "https://open.spotify.com/show/5dEYjzF1Imxv5hNDSzPspf"
+            },
+            {
+                "title": "Unlocking Us with Bren\u00e9 Brown",
+                "description": "Explores vulnerability and emotional healing, helping listeners understand and move past emotional shutdown.",
+                "url": "https://open.spotify.com/show/3ssS1so5wcs6kmHMRCcURY"
+            },
+            {
+                "title": "Therapy Chat",
+                "description": "Offers in-depth discussions on emotional health and tools for overcoming emotional shutdown and dissociation.",
+                "url": "https://open.spotify.com/show/1EUXZbqJeuKqZsk2lZSC8w"
+            }
+        ]
+    },
+    "urge to escape life": {
+        "videos": [
+            {
+                "title": "Escape the City: Why We Feel Trapped and How to Break Free",
+                "description": "This video explores the feeling of being trapped in life\u2019s routine and offers inspiration to seek meaningful changes.",
+                "url": "https://www.youtube.com/watch?v=7vH4Ub948pI"
+            },
+            {
+                "title": "The Secret to Escaping Your Comfort Zone",
+                "description": "A motivational guide encouraging you to step outside your current life and find new paths to personal freedom.",
+                "url": "https://www.youtube.com/watch?v=HZ1Guzk8Yf8"
+            },
+            {
+                "title": "Minimalism: Escape Consumer Culture and Find Freedom",
+                "description": "This video discusses simplifying life to escape stress and create space for what truly matters.",
+                "url": "https://www.youtube.com/watch?v=0Co1Iptd4kQ"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "The Minimalists Podcast",
+                "description": "Explores how simplifying your life can help you escape feelings of being overwhelmed and find real freedom.",
+                "url": "https://open.spotify.com/show/3V3UAcq4kJoBheTY2N0dqg"
+            },
+            {
+                "title": "The Escape Podcast",
+                "description": "Shares stories and advice from people who have left their conventional lives behind to pursue freedom and fulfillment.",
+                "url": "https://open.spotify.com/show/2uHcLFVU6g7Kmsc8tD1gSH"
+            },
+            {
+                "title": "On Being with Krista Tippett",
+                "description": "Delves into deep conversations about meaning, purpose, and the human experience, perfect for those craving escape through understanding.",
+                "url": "https://open.spotify.com/show/3AxQHZpJlkYhMghzHSRIk4"
+            }
+        ]
+    },
+    "preparing for death": {
+        "videos": [
+            {
+                "title": "Mortality - A Meditation on Life and Death",
+                "description": "This reflective video gently explores the nature of mortality, helping viewers come to terms with the inevitability of death and find peace.",
+                "url": "https://www.youtube.com/watch?v=KxtvWWyz8dc"
+            },
+            {
+                "title": "How to Prepare for Death | A Guide to Embracing Mortality",
+                "description": "A compassionate guide that offers practical and emotional advice on preparing for death with acceptance and grace.",
+                "url": "https://www.youtube.com/watch?v=H2Ns0kq1WF8"
+            },
+            {
+                "title": "The Art of Dying Well: What the Death Positive Movement Teaches Us",
+                "description": "This video introduces the Death Positive movement, encouraging open conversations and healthy attitudes toward end-of-life.",
+                "url": "https://www.youtube.com/watch?v=mPbC8Mqo3lM"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "Death, Sex & Money",
+                "description": "This podcast tackles difficult life conversations, including death, helping listeners find meaning and connection.",
+                "url": "https://open.spotify.com/show/0ONLBlZQqNLZAPN8u9VjCu"
+            },
+            {
+                "title": "The End of Life University",
+                "description": "Focused on death education, this podcast offers compassionate discussions to ease fears about dying and dying well.",
+                "url": "https://open.spotify.com/show/4ajFEHFyj0i0CQFcpl5Zsv"
+            },
+            {
+                "title": "Mortified",
+                "description": "Sharing candid and heartfelt stories about life and death, this podcast helps normalize and demystify the experience of dying.",
+                "url": "https://open.spotify.com/show/2vWqI2zDA47u8HiZRjy5iI"
+            }
+        ]
+    },
+    "existential dread": {
+        "videos": [
+            {
+                "title": "The Philosophy of Existentialism Explained",
+                "description": "This video delves into existentialist philosophy, helping to understand the roots of existential dread through the lens of great thinkers.",
+                "url": "https://www.youtube.com/watch?v=4T-E6QclUjI"
+            },
+            {
+                "title": "Why Do We Fear Death? | Philosophy Tube",
+                "description": "Exploring the fear of mortality, this video confronts the core of existential dread with thoughtful analysis and compassion.",
+                "url": "https://www.youtube.com/watch?v=Z2EFOFKv7jM"
+            },
+            {
+                "title": "Existential Dread: What It Means and How to Cope",
+                "description": "A compassionate guide discussing the nature of existential dread and practical ways to navigate this overwhelming feeling.",
+                "url": "https://www.youtube.com/watch?v=0BXTZoLlp3A"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "The Philosopher's Zone",
+                "description": "This podcast tackles big philosophical questions, often addressing themes like meaning, existence, and existential despair.",
+                "url": "https://open.spotify.com/show/1RQI9p7Yk7AVKwCMK1vINJ"
+            },
+            {
+                "title": "Existential Comics Podcast",
+                "description": "A humorous yet insightful podcast diving into existential philosophy and its relevance to everyday feelings of dread and uncertainty.",
+                "url": "https://open.spotify.com/show/5YwJZj9uTxrW3HYvkRPDej"
+            },
+            {
+                "title": "The Meaning Crisis",
+                "description": "This show explores the struggle to find meaning in modern life, directly resonating with the experience of existential dread.",
+                "url": "https://open.spotify.com/show/0FjNwBih1BMchpkXU3FOK9"
+            }
+        ]
+    },
+    "flashbacks": {
+        "videos": [
+            {
+                "title": "Understanding Flashbacks: PTSD Explained",
+                "description": "This video breaks down what flashbacks are and helps viewers understand the intense emotions tied to PTSD.",
+                "url": "https://www.youtube.com/watch?v=VBTuIhQ2K00"
+            },
+            {
+                "title": "Managing Flashbacks and Nightmares",
+                "description": "A helpful guide offering practical techniques for coping with flashbacks and reducing their impact.",
+                "url": "https://www.youtube.com/watch?v=Jl5GNhSMk-Y"
+            },
+            {
+                "title": "How to Stop PTSD Flashbacks: 5 Simple Techniques",
+                "description": "This video teaches easy-to-follow methods to regain control during flashbacks and ground yourself in the present.",
+                "url": "https://www.youtube.com/watch?v=tAEShpYGuAE"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "Trauma Therapist Podcast",
+                "description": "Explores trauma recovery with expert interviews, providing sensitive tools for managing flashbacks.",
+                "url": "https://open.spotify.com/show/0Mj8JOvmCcOsLneIWS6fy8"
+            },
+            {
+                "title": "The PTSD Recovery Podcast",
+                "description": "Focused on supporting PTSD survivors with strategies to cope with symptoms like flashbacks.",
+                "url": "https://open.spotify.com/show/6Fi3fszGVHtAYMcxjexM9J"
+            },
+            {
+                "title": "Healing from Trauma Podcast",
+                "description": "Offers compassionate discussions and actionable advice for understanding and healing after trauma.",
+                "url": "https://open.spotify.com/show/4av9KNN6JJivvTFyJVkGlb"
+            }
+        ]
+    },
+    "social withdrawal": {
+        "videos": [
+            {
+                "title": "Understanding Social Withdrawal: Causes and Solutions",
+                "description": "This video explores the reasons behind social withdrawal and offers practical strategies to reconnect with others.",
+                "url": "https://www.youtube.com/watch?v=OT7kvuT1iGg"
+            },
+            {
+                "title": "Overcoming Social Anxiety and Isolation",
+                "description": "A helpful guide on managing feelings of social anxiety and easing into social interactions gradually.",
+                "url": "https://www.youtube.com/watch?v=Pw7RVfpOmjY"
+            },
+            {
+                "title": "The Science of Loneliness and How to Overcome It",
+                "description": "This video explains the psychological effects of loneliness and provides tips to break the cycle of social withdrawal.",
+                "url": "https://www.youtube.com/watch?v=abYZ26tgVKQ"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "The Social Anxiety Mastery Podcast",
+                "description": "Focused on overcoming social anxiety and withdrawal, this podcast offers encouragement and actionable advice.",
+                "url": "https://open.spotify.com/show/2Eix1kjH3QeFDWXcFqYqSQ"
+            },
+            {
+                "title": "The Lonely Hour Podcast",
+                "description": "Real stories and expert insights about dealing with loneliness and the challenges of social isolation.",
+                "url": "https://open.spotify.com/show/1PQxYZ6jMlgM9B3OdBJaue"
+            },
+            {
+                "title": "How to Be Social",
+                "description": "Practical tips and encouragement for people struggling with social withdrawal and wanting to improve their social life.",
+                "url": "https://open.spotify.com/show/6v6cZjgwNvv5xYJQzbFLMk"
+            }
+        ]
+    },
+    "mistrust": {
+        "videos": [
+            {
+                "title": "How to Spot a Liar: The Psychology of Deception",
+                "description": "This video explores the signs and psychology behind deception, helping viewers understand why mistrust arises.",
+                "url": "https://www.youtube.com/watch?v=WIPlhS0T6n0"
+            },
+            {
+                "title": "The Neuroscience of Trust and Mistrust",
+                "description": "A clear explanation of how our brains process trust and mistrust, offering insight into this complex emotion.",
+                "url": "https://www.youtube.com/watch?v=2TKnf3kRdpY"
+            },
+            {
+                "title": "Why People Don\u2019t Trust Each Other | TEDx Talks",
+                "description": "This TEDx talk delves into the causes of mistrust in society and ways to rebuild trust effectively.",
+                "url": "https://www.youtube.com/watch?v=TsDh8OJG0Pw"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "The Trust Edge Podcast",
+                "description": "This podcast focuses on building and restoring trust in personal and professional relationships, ideal for those grappling with mistrust.",
+                "url": "https://open.spotify.com/show/6sCyyOQhShLfB8mjZvXl0C"
+            },
+            {
+                "title": "Hidden Brain",
+                "description": "Explores the unconscious patterns behind human behavior, including why mistrust develops and how to overcome it.",
+                "url": "https://open.spotify.com/show/2Oeim1Vb5CZvtyk7byQXCE"
+            },
+            {
+                "title": "The Psychology Podcast",
+                "description": "Delves into the mental processes behind emotions like mistrust, providing scientific insights to better understand these feelings.",
+                "url": "https://open.spotify.com/show/6twLRqEmuQFq3emh6HzLJh"
+            }
+        ]
+    },
+    "mania": {
+        "videos": [
+            {
+                "title": "The Science of Mania: What Happens in the Brain?",
+                "description": "This video explains the neuroscience behind mania, helping you understand the heightened energy and mood states.",
+                "url": "https://www.youtube.com/watch?v=0NDnneUhYOc"
+            },
+            {
+                "title": "10 Things You Should Know About Bipolar Mania",
+                "description": "A clear and concise overview that helps demystify mania and its symptoms for better self-awareness.",
+                "url": "https://www.youtube.com/watch?v=JpDoapM4_TA"
+            },
+            {
+                "title": "Managing Mania: Tips and Strategies",
+                "description": "Practical advice to help channel manic energy positively and stay grounded during episodes.",
+                "url": "https://www.youtube.com/watch?v=V0pVr3Azhtg"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "The Hilarious World of Depression",
+                "description": "While centered on mood disorders, this podcast sheds light on the manic side with humor and heart.",
+                "url": "https://open.spotify.com/show/3DqkaApef5F6AIQvb5jwKT"
+            },
+            {
+                "title": "The Bipolar Life Podcast",
+                "description": "Offers real-life insights and coping techniques specifically for living with bipolar disorder and mania.",
+                "url": "https://open.spotify.com/show/2z7yYWu5pqiBzGdHPEwqmV"
+            },
+            {
+                "title": "Mania: The Highs and Lows of Bipolar",
+                "description": "Explores manic episodes through personal stories and expert interviews, making the experience relatable and informative.",
+                "url": "https://open.spotify.com/episode/7h3RbXDmq5ixswKIyZjTYY"
+            }
+        ]
+    },
+    "psychosis": {
+        "videos": [
+            {
+                "title": "Understanding Psychosis: Symptoms and Treatment",
+                "description": "This video provides a clear explanation of psychosis symptoms and treatment options, helping demystify the experience and reduce fear.",
+                "url": "https://www.youtube.com/watch?v=9CpmE32brf4"
+            },
+            {
+                "title": "Living with Psychosis: A Personal Story",
+                "description": "A heartfelt personal account offering insight and hope for those experiencing psychosis, making it relatable and comforting.",
+                "url": "https://www.youtube.com/watch?v=dyD0Hj2gZsE"
+            },
+            {
+                "title": "What Causes Psychosis? | TED-Ed",
+                "description": "This educational talk breaks down the science behind psychosis in an accessible way, supporting understanding and compassion.",
+                "url": "https://www.youtube.com/watch?v=IcpXBCu76Yk"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "The Psych Central Podcast",
+                "description": "Explores topics related to psychosis and mental health with expert interviews and lived experiences to foster understanding.",
+                "url": "https://open.spotify.com/show/0rjFqjqb3KMJ2OxUyIaC4H"
+            },
+            {
+                "title": "Mad in America Podcast",
+                "description": "Discusses psychiatric research and offers perspectives on treatment approaches relevant to psychosis.",
+                "url": "https://open.spotify.com/show/2pOj00seMJg3qBPIon2SK4"
+            },
+            {
+                "title": "The Mind Explained: Schizophrenia and Psychosis",
+                "description": "This episode delves into the science of psychosis and schizophrenia, helping listeners grasp complex concepts simply.",
+                "url": "https://open.spotify.com/episode/4iWDvAeHJFYayqUz7NK8wX"
+            }
+        ]
+    },
+    "obsession": {
+        "videos": [
+            {
+                "title": "How Obsession Works: The Psychology of Fixation",
+                "description": "This video delves into the psychological mechanisms behind obsession, helping you understand the driving forces of intense focus.",
+                "url": "https://www.youtube.com/watch?v=mgqRR5HXh9Y"
+            },
+            {
+                "title": "The Science of Obsession | The Brain Explained",
+                "description": "Explore the brain chemistry and neural pathways that fuel obsessive thoughts and behaviors in this educational video.",
+                "url": "https://www.youtube.com/watch?v=Bs-4QZiUi40"
+            },
+            {
+                "title": "When Passion Turns to Obsession | TEDx Talks",
+                "description": "A thoughtful talk on the fine line between healthy passion and harmful obsession, offering insights on managing obsessive tendencies.",
+                "url": "https://www.youtube.com/watch?v=LxwttRr0H5Q"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "Obsessive Minds",
+                "description": "This podcast investigates the psychological roots of obsession and compulsion, providing expert interviews and stories.",
+                "url": "https://open.spotify.com/show/2QecKTr3OqEx2vN1I6owfN"
+            },
+            {
+                "title": "The Obsession Podcast",
+                "description": "Focused on stories of intense fixation and passion, this podcast explores the highs and lows of obsession.",
+                "url": "https://open.spotify.com/show/5haXN95y8VdxAbsyi3uYkn"
+            },
+            {
+                "title": "Brain Science: Understanding Obsession",
+                "description": "Explores neuroscience and mental health topics including obsession, featuring leading experts in psychology.",
+                "url": "https://open.spotify.com/show/1X7VqTNAkG52fXHI0gcNYw"
+            }
+        ]
+    },
+    "compulsion": {
+        "videos": [
+            {
+                "title": "Understanding Obsessive-Compulsive Disorder (OCD)",
+                "description": "This video provides an insightful explanation of compulsive behaviors and the science behind them, helping to understand the mood of compulsion.",
+                "url": "https://www.youtube.com/watch?v=E_tPPv_b2Fc"
+            },
+            {
+                "title": "Living with Compulsions: A Personal Story",
+                "description": "A heartfelt account that explores the challenges of compulsive urges, making it relatable for those experiencing similar feelings.",
+                "url": "https://www.youtube.com/watch?v=0pnCrvq74XI"
+            },
+            {
+                "title": "CBT for OCD and Compulsions",
+                "description": "An educational video showcasing cognitive-behavioral therapy techniques effective for managing compulsive behaviors.",
+                "url": "https://www.youtube.com/watch?v=Uykqtz-OaMg"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "OCD Stories Podcast",
+                "description": "Interviews and real-life stories offering insights and hope for anyone struggling with compulsive behaviors.",
+                "url": "https://open.spotify.com/show/0M4t5nWUodHUuAgQutci4Q"
+            },
+            {
+                "title": "The Anxiety Guy Podcast",
+                "description": "This podcast delves into anxiety-related compulsions and offers practical coping mechanisms for listeners.",
+                "url": "https://open.spotify.com/show/6LUvT2ADtZXoBkZuMVP7kE"
+            },
+            {
+                "title": "Therapy Chat",
+                "description": "Focused on mental health and therapy techniques, including managing compulsions and OCD symptoms.",
+                "url": "https://open.spotify.com/show/4Xj1jzjsVteQJNSynaDrq6"
+            }
+        ]
+    },
+    "nightmares": {
+        "videos": [
+            {
+                "title": "The Science of Nightmares",
+                "description": "This video explores the psychological and neurological reasons behind nightmares, helping you understand their origin and impact.",
+                "url": "https://www.youtube.com/watch?v=2_JteQ972a8"
+            },
+            {
+                "title": "How to Stop Nightmares with Simple Techniques",
+                "description": "Offers practical methods to reduce nightmares through relaxation and cognitive techniques, ideal for those troubled by bad dreams.",
+                "url": "https://www.youtube.com/watch?v=Q2S1DpMFEOA"
+            },
+            {
+                "title": "Why Do We Have Nightmares?",
+                "description": "A clear explanation of the science behind nightmares and what they might mean about our subconscious mind.",
+                "url": "https://www.youtube.com/watch?v=QFJfiSVjMkc"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "Sleepy Time Mumbles",
+                "description": "This podcast delves into the mysteries of sleep and nightmares, helping listeners gain perspective and calm about their bad dreams.",
+                "url": "https://open.spotify.com/show/5t3Od01E7gcQhN9m6EdwIU"
+            },
+            {
+                "title": "The Nightmare Podcast",
+                "description": "Focused entirely on nightmares, this show discusses personal stories and expert interviews to better understand and cope with them.",
+                "url": "https://open.spotify.com/show/6bJxqVPaEKFo1rIkq4WvVF"
+            },
+            {
+                "title": "Sleep and Dreams with Dr. Erin",
+                "description": "Offers science-based information on sleep disorders including nightmares, with practical advice for improving sleep quality.",
+                "url": "https://open.spotify.com/show/37i9dQZF1DX0hGj6L54DfH"
+            }
+        ]
+    },
+    "loss of identity": {
+        "videos": [
+            {
+                "title": "Understanding Identity Crisis | Kati Morton",
+                "description": "This video explores what it means to experience a loss of identity and offers insights into reconnecting with your true self.",
+                "url": "https://www.youtube.com/watch?v=5wdX1bkNcQE"
+            },
+            {
+                "title": "How to Find Yourself Again After Losing Yourself",
+                "description": "A motivational video that guides you through steps to regain a sense of self and purpose during times of confusion.",
+                "url": "https://www.youtube.com/watch?v=KZ8z8vt8uFo"
+            },
+            {
+                "title": "The Psychology of Identity | Academy of Ideas",
+                "description": "An educational video diving into the psychological aspects of identity and what causes its disruption.",
+                "url": "https://www.youtube.com/watch?v=xGQxwanF7Ho"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "The Lost Identity Podcast",
+                "description": "This podcast explores stories and expert advice on navigating identity loss and rediscovering personal meaning.",
+                "url": "https://open.spotify.com/show/5L4nmZNeih9KPZuPplX2vt"
+            },
+            {
+                "title": "Unlocking You | Self-Discovery and Identity",
+                "description": "Episodes focus on helping listeners reconnect with their authentic selves and overcome identity confusion.",
+                "url": "https://open.spotify.com/show/2WOaYZYR3fmcY2wFkWyy5m"
+            },
+            {
+                "title": "Reclaiming Yourself Podcast",
+                "description": "Offering guidance and support for those feeling lost or disconnected from their identity, promoting healing and growth.",
+                "url": "https://open.spotify.com/show/3TLWLSCQDijagoGqCv7UtL"
+            }
+        ]
+    },
+    "agitation": {
+        "videos": [
+            {
+                "title": "Calming the Agitated Mind - Mindfulness Practice",
+                "description": "This guided mindfulness practice helps settle restless thoughts and ease mental agitation, promoting calmness.",
+                "url": "https://www.youtube.com/watch?v=ZToicYcHIOU"
+            },
+            {
+                "title": "5-Minute Breathing Exercise for Stress Relief",
+                "description": "A quick breathing technique designed to reduce agitation and bring immediate relaxation.",
+                "url": "https://www.youtube.com/watch?v=odADwWzHR24"
+            },
+            {
+                "title": "How to Calm Down Fast When You\u2019re Agitated",
+                "description": "Practical steps and calming strategies to regain control during moments of intense agitation.",
+                "url": "https://www.youtube.com/watch?v=12dTJGK_Ves"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "The Calm Collective",
+                "description": "This podcast offers reflective conversations and calming insights ideal for moments of agitation.",
+                "url": "https://open.spotify.com/show/3kP3XdDrNDX7mbkIffHsnx"
+            },
+            {
+                "title": "Meditative Story",
+                "description": "Combines storytelling with meditation techniques to help ease mental agitation and stress.",
+                "url": "https://open.spotify.com/show/5FQ0g8pDJ2ku3MQW4uozjg"
+            },
+            {
+                "title": "The Daily Meditation Podcast",
+                "description": "Daily guided meditations that help reduce agitation and promote inner peace.",
+                "url": "https://open.spotify.com/show/0KaZ3B8VwPhUQ1Zbh7paRd"
+            }
+        ]
+    },
+    "self-harm urges": {
+        "videos": [
+            {
+                "title": "How to Manage Self-Harm Urges | Coping Strategies That Work",
+                "description": "This video offers compassionate advice and practical tools to help you manage and reduce urges to self-harm.",
+                "url": "https://www.youtube.com/watch?v=QxbFNKNz8Xw"
+            },
+            {
+                "title": "5 Things To Do Instead Of Self-Harm",
+                "description": "Provides gentle and effective alternatives to self-harm to help redirect difficult emotions safely.",
+                "url": "https://www.youtube.com/watch?v=4HG5ZTGr9eM"
+            },
+            {
+                "title": "Understanding Self-Harm & How to Cope | Mental Health",
+                "description": "Explains the reasons behind self-harm urges and offers supportive coping mechanisms for emotional distress.",
+                "url": "https://www.youtube.com/watch?v=lMP5YK1EEwg"
+            }
+        ],
+        "podcasts": [
+            {
+                "title": "The Hilarious World of Depression - Episode: Self-Harm and Healing",
+                "description": "Shares honest conversations and stories about self-harm and recovery, fostering understanding and hope.",
+                "url": "https://open.spotify.com/episode/2V6FbUijR2hbm5CjuV8f8m"
+            },
+            {
+                "title": "Therapy Chat: Coping with Self-Harm Urges",
+                "description": "Features expert insights and practical strategies to support listeners struggling with self-harm thoughts.",
+                "url": "https://open.spotify.com/episode/0nQ6UW1VtP3uW3A0TfOGE1"
+            },
+            {
+                "title": "Mental Illness Happy Hour: Self-Harm, Hope, and Healing",
+                "description": "Offers raw and relatable stories along with encouragement for those facing self-harm urges and mental health challenges.",
+                "url": "https://open.spotify.com/episode/5YUMz7k8ZMBzUi72JH4X4Q"
             }
         ]
     }

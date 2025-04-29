@@ -13,18 +13,15 @@ class ChatDatabase:
             self.client = MongoClient(os.getenv("MONGODB_URI"))
             self.db = self.client["medbot"]
             self.chats = self.db["chats"]
-            self.analytics = self.db["analytics"]  # New collection for anonymized data
+            self.analytics = self.db["analytics"]  
         except Exception as e:
             print(f"Error connecting to MongoDB: {e}")
             raise
     
     def create_chat(self, user_id):
         try:
-            # Generate chat ID
             chat_id = str(ObjectId())
             anonymous_id = generate_anonymous_id(chat_id)
-            
-            # Create chat document
             chat_doc = {
                 "_id": ObjectId(chat_id),
                 "user_id": user_id,
@@ -34,11 +31,8 @@ class ChatDatabase:
                 "updated_at": datetime.now(),
                 "messages": []
             }
-            
-            # Insert into database
+        
             self.chats.insert_one(chat_doc)
-            
-            # Store analytics data
             self.analytics.insert_one({
                 "anonymous_id": anonymous_id,
                 "user_id": user_id,
@@ -54,21 +48,15 @@ class ChatDatabase:
     
     def add_message(self, chat_id, role, content):
         try:
-            # Encrypt the message content
             encrypted_content = encrypt_message(content)
-            
-            # Get anonymous ID
             chat = self.chats.find_one({"_id": ObjectId(chat_id)})
             anonymous_id = chat.get("anonymous_id")
-            
-            # Create message document
             message = {
                 "role": role,
                 "content": encrypted_content,
                 "timestamp": datetime.now()
             }
-            
-            # Update chat with encrypted message
+        
             self.chats.update_one(
                 {"_id": ObjectId(chat_id)},
                 {
@@ -80,7 +68,6 @@ class ChatDatabase:
                 }
             )
             
-            # Update analytics
             self.analytics.update_one(
                 {"anonymous_id": anonymous_id},
                 {
@@ -98,7 +85,6 @@ class ChatDatabase:
         try:
             chat = self.chats.find_one({"_id": ObjectId(chat_id)})
             if chat and "messages" in chat:
-                # Decrypt all messages
                 decrypted_messages = []
                 for msg in chat["messages"]:
                     try:
@@ -110,7 +96,6 @@ class ChatDatabase:
                         })
                     except Exception as e:
                         print(f"Error decrypting message: {e}")
-                        # If decryption fails, use the original content
                         decrypted_messages.append({
                             "role": msg["role"],
                             "content": msg["content"],
@@ -124,19 +109,13 @@ class ChatDatabase:
     
     def get_all_chats(self, user_id):
         try:
-            # Get all chats for the user with their messages
             chats = list(self.chats.find(
                 {"user_id": user_id}
             ).sort([("updated_at", -1), ("created_at", -1)]))
             
-            # Process each chat
             for chat in chats:
-                # Convert ObjectId to string
                 chat["_id"] = str(chat["_id"])
-                
-                # Get the first user message for the title
                 if "messages" in chat and chat["messages"]:
-                    # Find first user message
                     user_messages = [msg for msg in chat["messages"] if msg["role"] == "user"]
                     if user_messages:
                         first_msg = user_messages[0]
@@ -149,11 +128,7 @@ class ChatDatabase:
                         chat["title"] = "New Chat"
                 else:
                     chat["title"] = "New Chat"
-                
-                # Add message count
                 chat["message_count"] = len(chat.get("messages", []))
-                
-                # Format dates
                 if "created_at" in chat:
                     chat["created_at"] = chat["created_at"].strftime("%Y-%m-%d %H:%M")
                 if "updated_at" in chat:
@@ -166,14 +141,9 @@ class ChatDatabase:
     
     def delete_chat(self, chat_id):
         try:
-            # Get anonymous ID before deletion
             chat = self.chats.find_one({"_id": ObjectId(chat_id)})
             anonymous_id = chat.get("anonymous_id")
-            
-            # Delete chat
             self.chats.delete_one({"_id": ObjectId(chat_id)})
-            
-            # Remove analytics data
             self.analytics.delete_one({"anonymous_id": anonymous_id})
             
             return True

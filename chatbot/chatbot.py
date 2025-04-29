@@ -38,7 +38,7 @@ AI:"""
             self.db = ChatDatabase()
             
             # Initialize the recommendation system
-            dataset_path = os.path.join(os.path.dirname(__file__), 'my_dataset.csv')
+            dataset_path = os.path.join(os.path.dirname(__file__), 'mental_health_chatbot_interactions.csv')
             self.recommender = MoodBasedRecommender(dataset_path)
             
         except Exception as e:
@@ -58,10 +58,10 @@ AI:"""
             if self.is_mood_message(user_input):
                 if self.recommender:
                     recommendations = self.recommender.get_recommendations(user_input)
-                    response = "Here are some activities that might help you:\n\n"
+                    response = "Here are some exercises that might help you:\n\n"
                     for i, rec in enumerate(recommendations, 1):
-                        response += f"{i}. {rec['activity']}\n   Type: {rec['type']}\n   Tags: {rec['tags']}\n\n"
-                    response += "Would you like to try any of these activities? I'm here to support you."
+                        response += f"{i}. {rec['exercise']}\n\n"
+                    response += "Would you like to try any of these exercises? I'm here to support you."
                     return response
                 else:
                     return "I apologize, but I'm having trouble accessing the recommendation system right now. Please try again later."

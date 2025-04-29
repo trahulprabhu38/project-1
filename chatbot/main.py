@@ -13,17 +13,38 @@ import json
 
 load_dotenv()
 
-# Initialize JWT secret from environment variable
+
 JWT_SECRET = os.getenv("JWT_SECRET", "your-secret-key")
 
 # API configuration
 API_BASE_URL = "http://localhost:5001/api"
 
-MOOD_WORDS = ["happy", "sad", "lonely", "anxious", "stressed", "angry", "depressed", "worried", "upset", "excited", "tired", "overwhelmed"]
+MOOD_WORDS = [
+    "happy", "sad", "lonely", "anxious", "stressed", "angry", "depressed", 
+    "worried", "upset", "excited", "tired", "overwhelmed", "nervous", 
+    "exhausted", "hopeless", "shame", "fear", "panic", "self-doubt", 
+    "low self-esteem", "distressed", "unmotivated", "burnt out", "guilt", 
+    "grief", "emptiness", "worthless", "helpless", "restless", "isolated", 
+    "insecure", "broken", "lost", "unloved", "rejected", "abandoned", 
+    "confused", "betrayed", "powerless", "apathetic", "heartbroken", 
+    "disconnected", "vulnerable", "regretful", "irritable", "resentful", 
+    "emotional pain", "mental fatigue", "dread", "invisible", "despair", 
+    "detachment", "dissociation", "emotional numbness", "self-hatred", 
+    "suicidal thoughts", "desire to disappear", "feeling like a burden", 
+    "thoughts of self-harm", "hopeless about future", "writing goodbye notes", 
+    "emotional shutdown", "urge to escape life", "preparing for death", 
+    "existential dread", "flashbacks", "social withdrawal", "mistrust", 
+    "mania", "psychosis", "obsession", "compulsion", "nightmares", 
+    "loss of identity", "agitation", "self-harm urges", "frustrated"
+]
 
-# Load local recommendations JSON
+
 with open(os.path.join(os.path.dirname(__file__), 'mental_health_recommendations.json'), 'r') as f:
     LOCAL_RECOMMENDATIONS = json.load(f)
+
+# Load mental health resources JSON
+with open(os.path.join(os.path.dirname(__file__), 'mental_health_resources.json'), 'r') as f:
+    MENTAL_HEALTH_RESOURCES = json.load(f)
 
 st.set_page_config(
     page_title="🧠 Mental Health Assistant",
@@ -31,7 +52,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Apply custom CSS (no recommendation card box)
+
 st.markdown("""
 <style>
     .stButton button {
@@ -137,7 +158,7 @@ def load_chat_messages(chat_id):
 def load_chats():
     try:
         chats = st.session_state.chatbot.db.get_all_chats(st.session_state.user_id)
-        # Sort chats by last updated (descending)
+
         if chats:
             chats = sorted(chats, key=lambda c: c.get('updated_at', c.get('created_at', '')), reverse=True)
             st.session_state.chats = chats
@@ -165,7 +186,7 @@ def update_chat(chat_id, messages):
                 msg["role"],
                 msg["content"]
             )
-        # Move updated chat to top
+
         load_chats()
         return True
     except Exception as e:
@@ -217,7 +238,6 @@ def initialize_session_state(user_id):
             st.session_state.messages = load_chat_messages(st.session_state.chats[0]["_id"])
 
 def is_mood_message(user_input):
-    # Only trigger for explicit requests for help or suggestions
     mood_triggers = [
         'can you recommend', 'can you suggest', 'what should i do for', 'any tips for',
         'help with', 'cope with', 'manage my', 'suggest something for', 'recommend something for'
@@ -225,15 +245,46 @@ def is_mood_message(user_input):
     user_input_lower = user_input.lower()
     return any(kw in user_input_lower for kw in mood_triggers)
 
+def get_mental_health_resources(mood=None, category=None):
+    resources = []
+    if mood:
+        mood = mood.lower()    
+    if category and category in MENTAL_HEALTH_RESOURCES:
+        resources.extend(MENTAL_HEALTH_RESOURCES[category])
+    else:
+        resources.extend(MENTAL_HEALTH_RESOURCES.get('general', []))
+    
+    return resources
+
+def format_resource_response(resources):
+    if not resources:
+        return "No resources found."
+    
+    response = "**Mental Health Resources:**\n\n"
+    for i, resource in enumerate(resources, 1):
+        response += f"{i}. **{resource['title']}**\n"
+        if resource.get('summary'):
+            response += f"   {resource['summary']}\n"
+        if resource.get('url'):
+            response += f"   [Read more]({resource['url']})\n"
+        if resource.get('published_date'):
+            response += f"   Published: {resource['published_date']}\n"
+        response += "\n"
+    
+    return response
+
 def process_user_input(prompt):
     if is_mood_message(prompt):
         recommendations = st.session_state.chatbot.recommender.get_recommendations(prompt)
-        response = "Here are some activities that might help you:\n\n"
+        response = "Here are some exercises that might help you:\n\n"
         for i, rec in enumerate(recommendations, 1):
-            response += f"{i}. {rec['activity']}\n\n"
-        response += "Would you like to try any of these activities? I'm here to support you."
+            response += f"{i}. {rec['exercise']}\n\n"
+        
+        resources = get_mental_health_resources()
+        response += "\n" + format_resource_response(resources)
+        
+        response += "\nWould you like to try any of these exercises or learn more about the resources? I'm here to support you."
         return response
-    # Otherwise, use Groq API (ChatBot)
     return st.session_state.chatbot.get_bot_response(st.session_state.current_chat_id, prompt)
 
 def get_latest_mood(messages):
@@ -274,7 +325,6 @@ def main():
         st.title("Chats")
         if st.button("New Chat"):
             create_chat()
-        # Display chats with delete button, latest on top
         for chat in st.session_state.chats:
             chat_id = chat["_id"]
             chat_title = chat.get("title") or f"Chat {chat_id[:8]}"
@@ -302,21 +352,18 @@ def main():
         if st.session_state.current_chat_id:
             update_chat(st.session_state.current_chat_id, st.session_state.messages)
 
-    # Add a button to show recommendations
     mood = get_latest_mood(st.session_state.messages)
     if mood:
         if st.button("Show Recommendations"):
-            # Get activity recommendations
-            activity_recommendations = st.session_state.chatbot.recommender.get_recommendations(mood, num_recommendations=10)
-            random.shuffle(activity_recommendations)
-            activity_recommendations = activity_recommendations[:5]
-            # Get local video and podcast recommendations
+            exercise_recommendations = st.session_state.chatbot.recommender.get_recommendations(mood, num_recommendations=10)
+            random.shuffle(exercise_recommendations)
+            exercise_recommendations = exercise_recommendations[:5]
             videos, podcasts = get_local_recommendations(mood)
             response = f"Since you mentioned feeling {mood}, here are some resources that might help:\n\n"
-            if activity_recommendations:
-                response += "**Recommended Activities:**\n"
-                for i, rec in enumerate(activity_recommendations, 1):
-                    response += f"{i}. {rec['activity']}\n"
+            if exercise_recommendations:
+                response += "**Recommended Exercises:**\n"
+                for i, rec in enumerate(exercise_recommendations, 1):
+                    response += f"{i}. {rec['exercise']}\n"
                 response += "\n"
             if videos:
                 response += "**Recommended YouTube Videos:**\n"
@@ -326,7 +373,7 @@ def main():
                 response += "\n**Recommended Spotify Podcasts:**\n"
                 for pod in podcasts:
                     response += f"- [{pod.get('title', 'Podcast')}]({pod.get('url', '')})\n"
-            if not activity_recommendations and not videos and not podcasts:
+            if not exercise_recommendations and not videos and not podcasts:
                 response += "Sorry, I couldn't find any recommendations for this mood."
             response += "\nWould you like to try any of these? I'm here to support you."
             with st.chat_message("assistant"):

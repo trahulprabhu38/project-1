@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 JWT_SECRET = os.getenv("JWT_SECRET", "your-secret-key")
-DEV_MODE = os.getenv("DEV_MODE", "true").lower() == "true"  # Enable dev mode by default
+DEV_MODE = os.getenv("DEV_MODE", "true").lower() == "true"  
 
 def init_auth():
     """Initialize authentication state"""
@@ -21,11 +21,11 @@ def verify_and_get_user():
     """Verify token and return user_id"""
     init_auth()
     
-    # If already authenticated in session, return user_id
+
     if st.session_state.is_authenticated and st.session_state.user_id:
         return st.session_state.user_id
     
-    # Development mode - auto authenticate with test user
+
     if DEV_MODE:
         test_user_id = "test_user_123"
         test_token = jwt.encode(
@@ -38,7 +38,7 @@ def verify_and_get_user():
         st.session_state.token = test_token
         return test_user_id
     
-    # Production mode - normal authentication
+
     token = st.query_params.get("token")
     
     if not token:
@@ -46,7 +46,6 @@ def verify_and_get_user():
         st.stop()
     
     try:
-        # Decode the token
         decoded = jwt.decode(token, JWT_SECRET, algorithms=["HS256"])
         user_id = str(decoded.get("userId"))
         
@@ -54,7 +53,6 @@ def verify_and_get_user():
             st.error("Invalid token: No user ID found")
             st.stop()
         
-        # Store in session state
         st.session_state.is_authenticated = True
         st.session_state.user_id = user_id
         st.session_state.token = token
